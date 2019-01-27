@@ -1,0 +1,301 @@
+﻿/*css to apply styling on labels which are used as main menu options*/
+
+.menu-search-button {
+   height: 28px;
+   margin-right: 8px;
+   border: 2px solid white !important;
+   /*border-color: #302E2E !important;*/
+   background-color: #ffffff !important;
+   background-image: none !important;
+   border-radius: 0;
+}
+
+.menu-search-button.x-btn-default-small-over { border: 2px solid #302E2E !important; }
+
+.menu-search-button.x-btn-default-small-disabled { border: 2px solid #302E2E !important; }
+
+/*hover cls for search(menu form) button*/
+
+.menu-search-button .x-btn-inner:hover { font-weight: bold !important; }
+
+.menu-search-button .x-btn-inner {
+   color: #302E2E!important;
+   font-size: 14px!important;
+   font-weight: normal !important;
+}
+
+/*css for grid*/
+
+.flatgrid .x-panel-header-default { background-color: #ed8d70 !important; }
+
+.flatgrid .x-btn-default-toolbar-small {
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
+   border-radius: 0;
+   background-image: none;
+   background-color: #96dbe5;
+   color: #ffffff;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   height: 35px !important;
+}
+
+.flatgrid .x-btn-default-toolbar-small:hover {
+   background-color: #52c4d4;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.flatgrid .x-btn-wrap {
+   top: 50%;
+   margin-top: -8px;
+}
+
+/*removes the right border in rownumberer column when applying cls: flat grid*/
+
+/*.flatgrid .x-grid-with-col-lines .x-grid-cell { border-right-width: 0 !important }*/
+
+.flatgrid .x-grid-cell-inner {
+   -ms-text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+   padding: 10px 10px 10px 10px;
+}
+
+/* for color of splitter */
+
+.flatgrid .x-splitter-vertical {
+   background-color: #c8c8c8 !important;
+}
+
+/*css for tab panel*/
+
+.flatTabPanel .x-tab-bar-default {
+   background-color: #FFFFFF;
+   border-top: none !important;
+}
+
+.flatTabPanel .x-tab-bar-strip-default {
+   border-style: solid;
+   border-color: #c8c8c8;
+   background-color: #4cc1d2;
+}
+
+.flatTabPanel .x-tab-default-top {
+   border-radius: 3px 3px 0 0;
+   padding: 8px 12px 7px 12px;
+   border-width: 0;
+   border-style: solid;
+   background-color: #96dbe5;
+}
+
+.flatTabPanel .x-tab-default-over { background-color: #4cc1d2; }
+
+.flatTabPanel .x-tab-default-active { background-color: #4cc1d2; }
+
+.flatTabPanel .x-panel-header-default {
+   background-image: none;
+   background-color: #ed8d70;
+}
+
+.flatTabPanel .x-border-layout-ct { background-color: #E4E4E4; }
+
+.flatTabPanel.flatTabPanel .x-panel-header-default .x-tool-img { background-color: transparent; }
+
+.breadcrumbPadd .instbreadcrumb > li {
+   display: inline-block;
+   padding-top: 3px;
+   padding-bottom: 8px;
+}
+
+/*css for popup window*/
+
+.popupwin.x-window-default {
+   border-color: #4cc1d2;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+   border-radius: 4px;
+}
+
+.popupwin .x-window-header-default-top {
+   border-radius: 4px 4px 0 0;
+   border-color: #4cc1d2;
+   padding: 5px 5px 5px 5px;
+   border-width: 5px 5px 5px 5px;
+   border-style: solid;
+   background-color: #4cc1d2;
+}
+
+.popupwin .x-window-header-default .x-tool-img { background-color: #4cc1d2; }
+
+.mainToolbarFlat {
+   background-color: #ffffff !important;
+   color: #2D2D2D;
+   font-size: 18px;
+   padding-top: 3px !important;
+   border-bottom: 1px solid #c8c8c8 !important;
+}
+
+/*******************
+   Message box css
+********************/
+
+.x-message-box.x-window-default { border-color: #4cc1d2 !important; }
+
+.x-message-box .x-window-header-default-top { background-color: #4cc1d2 !important; }
+
+.x-message-box .x-window-header-default {
+   border-color: #4cc1d2 !important;
+}
+
+.x-message-box .x-window-header-default .x-tool-img {
+   background-color: transparent !important;
+}
+
+.x-message-box .x-btn-default-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #ffffff !important;
+   border-color: #c8c8c8 !important;
+}
+
+.x-message-box .x-btn-default-small-over {
+   background-color: #c8c8c8 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.x-message-box .x-btn-default-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+   color: black !important;
+}
+
+/*****************
+Buttons css   
+********************/
+
+/*save button*/
+
+.save-flat-btn.x-btn-default-toolbar-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #ffffff !important;
+   /* -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   border: 2px solid #494949 !important;
+   height: 50px;
+   width: 74px !important;
+}
+
+.save-flat-btn .x-btn-wrap {
+   top: 50%;
+   margin-top: -8px;
+}
+
+.save-flat-btn.x-btn-default-toolbar-small-over {
+   background-color: #2E6C87 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.save-flat-btn.x-btn-default-toolbar-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+}
+
+.save-flat-btn.x-btn-default-toolbar-small.x-btn-default-toolbar-small-over .x-btn-inner { color: #ffffff !important; }
+
+
+/*upload button*/
+
+.upload-button-flat.x-btn-default-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #ffffff !important;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   border-color: #c8c8c8 !important;
+}
+
+.upload-button-flat.x-btn-default-small-over {
+   background-color: #c8c8c8 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.upload-button-flat.x-btn-default-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+   color: black !important;
+}
+
+/***************
+back button css
+*****************/
+
+.back-button-flat.x-btn-default-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #96dbe5;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   border-color: #c8c8c8 !important;
+   height: 30.5px;
+   border-bottom: none !important;
+}
+
+.back-button-flat.x-btn-default-small-over {
+   background-color: #52c4d4 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.back-button-flat.x-btn-default-small .x-btn-wrap {
+   top: 50%;
+   margin-top: -8px;
+}
+
+.back-button-flat.x-btn-default-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+   color: #ffffff !important;
+}

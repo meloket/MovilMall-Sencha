@@ -1,0 +1,26 @@
+﻿Ext.define('BrandAdmin.model.OffersModel', {
+   extend: 'Ext.data.Model',
+   fields: [
+      { name: 'key', type: 'string' },
+      { name: 'type', type: 'string' },
+      { name: 'tagLine', type: 'string' },
+      { name: 'isActive', type: 'boolean' },
+      { name: 'isDeleted', type: 'boolean' },
+      { name: 'img', type: 'auto' },
+      { name: 'code', type: 'string' },
+      { name: 'validFrom', type: 'date' },
+      { name: 'validTo', type: 'date' },
+      { name: 'finePrint', type: 'string' },
+      { name: 'tags', type: 'string' },
+      { name: 'categories', type: 'auto' },
+      { name: 'locations', type: 'string' },
+      { name: 'brandId', type: 'string' },
+      { name: 'likeCount', type: 'int' },
+      { name: 'clickCount', type: 'int' },
+      { name: 'busTypeId', type: 'string' },
+      { name: 'commentCount', type: 'int' },
+      { name: 'createdAt', type: 'date' },
+      { name: 'updatedAt', type: 'date' },
+      { name: 'deletedAt', type: 'date' },
+   ]
+});

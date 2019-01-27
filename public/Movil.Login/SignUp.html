@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <title>Register new Brand</title>
+   <link href="css/signUp.css" rel="stylesheet" type="text/css" />
+   <script src="scripts/signUp.js"> </script>
+<style>
+.label{
+    position: relative;
+}
+.label:before{
+   content:"*" ;
+   color:red    
+}
+</style>
+</head>
+   <body onload="signUpload()">
+      
+     
+      <div >
+         <form id="signUp-form" name="signUpForm" >
+            <table class="tableClass">
+               <th id="heading"><u>Registration</u></th>
+               <tr>
+                  <td id="name" class="label">Brand/Store/Place :</td> <td><input name="Brand/Store/Place" type="text" placeholder="Brand Name" id="brandName" /></td><br>
+               </tr>
+               <tr>
+                  <td id="contactP">Contact Person :</td> <td> <input name="Contact Person" type="text" placeholder="Contact Person" id="contactPerson" /></td><br>
+               </tr>
+          
+               <tr>
+                  <td id="contactN">Contact No.:</td> <td><input name="Contact No." type="text" placeholder="Contact No." id="contactNo" /></td><br>
+               </tr>
+               <tr>
+                  <td id="emailAdd" class="label">Email Address :</td> <td><input name="E-mail Address" type="text" placeholder="E-mail Address" id="email" /></td><br>
+                                                                                                                                       <br>
+                                                                                                                                       <td><input id="checkBtn" type="button" value="Check" onclick=checkEmail()></td>
+               </tr>
+               <tr>
+                  <td id="pass" class="label">Password :</td> <td><input type="password" name="pwd" placeholder="Password" id="pwd"/></td><br>
+               </tr>
+       
+               <tr>
+                  <td id="web">Website :</td> <td><input name="Website" type="text" placeholder="Website" id="website" /><br>
+               </tr>
+       
+            </table><input id="regBtn" type="button" value="Register" class="submit" onclick=doRegister()>
+                    <input id="cancelBtn" type="button" value="Cancel" class="btn" onclick=doCancelSignUp()>
+         </form>
+      </div>
+   </body>
+</html>

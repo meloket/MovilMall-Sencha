@@ -1,0 +1,199 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #ffffff;
+	color: #999;
+	font: 100%/1.5em sans-serif;
+	margin: 0;
+}
+
+h3 { margin: 0; }
+h5 { margin: 0; }
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover { color: #1dabb8; }
+
+fieldset {
+	border: none;
+	margin: 0;
+}
+
+input {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0;
+	-webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[id="Submit1"] { cursor: pointer; }
+
+input[id="loginbutton"] { cursor: pointer; }
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;	
+}
+.clearfix:after { clear: both; }
+
+/* ---------- LOGIN-FORM ---------- */
+
+#forcePass-form {
+	margin: 50px auto;
+	width: 300px;
+	box-shadow: 0px 0px 8px #888888;
+}
+
+#forcePass-form h3 {
+	background-color: #198D98;
+	/*border-radius: 5px 5px 0 0;*/
+	color: #fff;
+	font-size: 14px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#forcePass-form h5 {
+	background-color: #198D98;
+	/*border-radius: 5px 5px 0 0;*/
+	color: #4F4F50;
+	/*font-size: 14px;*/
+	padding: 5px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+}
+
+#forcePass-form fieldset {
+	background: #fff;
+	/*border-radius: 0 0 5px 5px;*/
+	padding: 20px;
+	position: relative;
+}
+
+#forcePass-form fieldset:before {
+	background-color: #fff;
+	content: "";
+	height: 8px;
+	left: 50%;
+	margin: -4px 0 0 -4px;
+	position: absolute;
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 8px;
+}
+
+#forcePass-form input {
+	font-size: 14px;
+}
+
+#forcePass-form input[type="text"],
+#forcePass-form input[type="email"],
+#forcePass-form input[type="password"] {
+	border: 1px solid #dcdcdc;
+	padding: 12px 10px;
+	width: 238px;
+}
+
+#login-form input[type="email"] {
+	/*border-radius: 3px 3px 0 0;*/
+}
+
+#forcePass-form input[type="password"] {
+	border-top: none;
+	/*border-radius: 0px 0px 3px 3px;*/
+}
+
+#forcePass-form input[id="Submit1"] {
+	background: #95a5a6;
+	/*border-radius: 3px;*/
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 12px 20px;
+   margin-right: 24px;
+   width: 94px;
+}
+
+#forcePass-form input[id="loginbutton"]:hover { background: #26afe9; }
+
+#forcePass-form input[id="loginbutton"] {
+	background: #35B5EB;
+	/*border-radius: 3px;*/
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 30px;
+   padding: 12px 20px;
+   position: fixed;
+}
+
+#forcePass-form input[id="Submit1"]:hover { background: #839596; }
+
+#forcePass-form footer {
+	font-size: 12px;
+	margin-top: 16px;
+}
+
+#forcePass-form .combo {
+   color: #999;
+   border: 1px solid #dcdcdc;
+	padding: 9px 5px;
+	width: 260px;
+	font-family: inherit;
+	font-size: 15px;
+	margin: 0;
+  -webkit-appearance: none;
+}
+
+#forcePass-form .combo :active{
+color: black;
+font-family: inherit;
+font-size: 14px;
+}
+
+.info {
+	background: #e5e5e5;
+	/*border-radius: 50%;*/
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 10px 0 0;
+	text-align: center;
+	width: 20px;
+}
+
+.loggingintext {
+   color: #9D9E9E;
+   display: none;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 150%;
+   text-align: center;
+}
+
+.forcepasswordLbl {
+   color: #F00;
+   display: inline-block;
+   margin-bottom: 7px;
+   margin-left: 5px;
+}

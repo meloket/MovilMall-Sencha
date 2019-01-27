@@ -1,0 +1,479 @@
+﻿/*css to apply styling on labels which are used as main menu options*/
+
+.menu-search-button {
+   height: 28px;
+   margin-right: 8px;
+   border: 2px solid white !important;
+   /*border-color: #302E2E !important;*/
+   background-color: #ffffff !important;
+   background-image: none !important;
+   border-radius: 0;
+}
+
+.menu-search-button.x-btn-default-small-over { border: 2px solid #302E2E !important; }
+
+.menu-search-button.x-btn-default-small-disabled { border: 2px solid #302E2E !important; }
+/*hover cls for search(menu form) button*/
+
+.menu-search-button .x-btn-inner:hover { font-weight: bold !important; }
+
+.menu-search-button .x-btn-inner {
+   color: #302E2E!important;
+   font-size: 14px!important;
+   font-weight: normal !important;
+}
+
+/*****************
+Buttons css   
+********************/
+
+/*save button*/
+
+.save-flat-btn.x-btn-default-toolbar-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #ffffff !important;
+   /* -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   border: 2px solid #494949 !important;
+   height: 50px;
+   width: 74px !important;
+}
+
+.save-flat-btn .x-btn-wrap {
+   top: 50%;
+   margin-top: -8px;
+}
+
+.save-flat-btn.x-btn-default-toolbar-small-over {
+   background-color: #2E6C87 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.save-flat-btn.x-btn-default-toolbar-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+}
+
+.save-flat-btn.x-btn-default-toolbar-small.x-btn-default-toolbar-small-over .x-btn-inner { color: #ffffff !important; }
+
+/*upload button*/
+
+.upload-button-flat.x-btn-default-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #ffffff !important;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   border-color: #c8c8c8 !important;
+}
+
+.upload-button-flat.x-btn-default-small-over {
+   background-color: #c8c8c8 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.upload-button-flat.x-btn-default-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+   color: black !important;
+}
+
+/***************
+back button css
+*****************/
+
+.back-button-flat.x-btn-default-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #96dbe5;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   border-color: #c8c8c8 !important;
+   height: 30.5px;
+   border-bottom: none !important;
+}
+
+.back-button-flat.x-btn-default-small-over {
+   background-color: #52c4d4 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.back-button-flat.x-btn-default-small .x-btn-wrap {
+   top: 50%;
+   margin-top: -8px;
+}
+
+.back-button-flat.x-btn-default-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+   color: #ffffff !important;
+}
+
+/*************************
+css for buttons in window
+*************************/
+
+
+/*upload button*/
+
+.window-button-flat.x-btn-default-toolbar-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #ffffff !important;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   border-color: #c8c8c8 !important;
+}
+
+.window-button-flat.x-btn-default-toolbar-small-over {
+   background-color: #c8c8c8 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.window-button-flat.x-btn-default-toolbar-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+   color: black !important;
+}
+
+
+/***********************************SENCHA COMPONENTS CSS***********************************************************/
+
+/*css for grid*/
+
+.flatgrid .x-panel-header-default { background-color: #ed8d70 !important; }
+
+.flatgrid .x-btn-default-toolbar-small {
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
+   border-radius: 0;
+   background-image: none;
+   background-color: #96dbe5;
+   color: #ffffff;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   height: 35px !important;
+}
+
+.flatgrid .x-docked-top .x-btn-default-toolbar-small .x-btn-inner { color: white; }
+
+.flatgrid .x-btn-default-toolbar-small:hover {
+   background-color: #52c4d4;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.flatgrid .x-btn-wrap {
+   top: 50%;
+   margin-top: -8px;
+}
+
+/*removes the right border in rownumberer column when applying cls: flat grid*/
+
+/*.flatgrid .x-grid-with-col-lines .x-grid-cell { border-right-width: 0 !important }*/
+
+.flatgrid .x-grid-cell-inner {
+   -ms-text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+   padding: 10px 10px 10px 9px;
+}
+
+/*css for tab panel*/
+
+.flatTabPanel .x-tab-bar-default {
+   background-color: #FFFFFF;
+   border-top: none !important;
+}
+
+.flatTabPanel .x-tab-bar-strip-default {
+   border-style: solid;
+   border-color: #c8c8c8;
+   background-color: #4cc1d2;
+}
+
+.flatTabPanel .x-tab-default-top {
+   border-radius: 3px 3px 0 0;
+   padding: 8px 12px 7px 12px;
+   border-width: 0;
+   border-style: solid;
+   background-color: #96dbe5;
+}
+
+.flatTabPanel .x-tab-default-over { background-color: #4cc1d2; }
+
+.flatTabPanel .x-tab-default-active { background-color: #4cc1d2; }
+
+.flatTabPanel .x-panel-header-default {
+   background-image: none;
+   background-color: #ed8d70;
+}
+
+.flatTabPanel .x-border-layout-ct { background-color: #E4E4E4; }
+
+.flatTabPanel .x-panel-header-default .x-tool-img { background-color: transparent; }
+
+.breadcrumbPadd .instbreadcrumb > li {
+   display: inline-block;
+   padding-top: 3px;
+   padding-bottom: 8px;
+}
+/*css for popup window*/
+
+.popupwin.x-window-default {
+   border-color: #4cc1d2;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+   border-radius: 4px;
+}
+
+.popupwin .x-window-header-default-top {
+   moz-border-radius-topleft: 4px;
+   -webkit-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+   -moz-border-radius-topright: 4px;
+   -webkit-border-top-right-radius: 4px;
+   border-top-right-radius: 4px;
+   -moz-border-radius-bottomright: 0;
+   -webkit-border-bottom-right-radius: 0;
+   border-bottom-right-radius: 0;
+   -moz-border-radius-bottomleft: 0;
+   -webkit-border-bottom-left-radius: 0;
+   border-bottom-left-radius: 0;
+   border-color: #4cc1d2;
+   padding: 5px 5px 5px 5px;
+   border-width: 5px 5px 5px 5px;
+   border-style: solid;
+   background-color: #4cc1d2;
+}
+
+.popupwin .x-window-header-default .x-tool-img { background-color: #4cc1d2; }
+
+.popupwin .x-btn-default-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #52c4d4 !important;
+   border-color: #c8c8c8 !important;
+}
+
+.popupwin .x-btn-default-small-over {
+   background-color: #30b1c3 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+/*****************
+   flat panel css
+*****************/
+
+.flatpanel .x-panel-header-default {
+   background-image: none;
+   background-color: #ed8d70;
+}
+
+.flatpanel .x-btn-default-toolbar-small {
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   -ms-border-radius: 0;
+   -o-border-radius: 0;
+   border-radius: 0;
+   background-image: none;
+   background-color: #96dbe5;
+   color: #ffffff;
+   /*-moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;*/
+   height: 35px !important;
+}
+
+.flatpanel .x-btn-default-toolbar-small:hover {
+   background-color: #52c4d4;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.flatpanel .x-btn-wrap {
+   top: 50%;
+   margin-top: -8px;
+}
+
+.flatpanel .x-docked-top .x-btn-default-toolbar-small .x-btn-inner { color: white; }
+
+/*******************
+   Message box css
+********************/
+
+.x-message-box.x-window-default { border-color: #4cc1d2 !important; }
+
+.x-message-box .x-window-header-default-top { background-color: #4cc1d2 !important; }
+
+.x-message-box .x-window-header-default { border-color: #4cc1d2 !important; }
+
+.x-message-box .x-window-header-default .x-tool-img { background-color: transparent !important; }
+
+.x-message-box .x-btn-default-small {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   -ms-border-radius: 0px !important;
+   -o-border-radius: 0px !important;
+   border-radius: 0px !important;
+   background-image: none !important;
+   background-color: #ffffff !important;
+   border-color: #c8c8c8 !important;
+}
+
+.x-message-box .x-btn-default-small-over {
+   background-color: #c8c8c8 !important;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -webkit-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+
+.x-message-box .x-btn-default-small .x-btn-inner {
+   font-size: 15px !important;
+   font-weight: normal !important;
+   color: black !important;
+}
+
+
+/********************
+image crop window css (brand admin)
+********************/
+
+/*.cropMain { padding: 10px 0 0 10px; }
+
+.imageToBeCropped { float: left; }
+*/
+
+/*.imageToBeCropped {
+   height: 450px;
+   width: 600px;
+}*/
+/* Apply these styles only when #preview-pane has
+   been placed within the Jcrop widget */
+
+.jcrop-holder #preview-pane {
+   display: block;
+   position: absolute;
+   z-index: 2000;
+   top: 10px;
+   right: -388px;
+   padding: 6px;
+   border: 1px #000000 solid;
+   border: 1px rgba(0, 0, 0, .4) solid;
+   background-color: white;
+
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   -webkit-box-shadow: 1px 1px 5px 2px #000000;
+   -moz-box-shadow: 1px 1px 5px 2px #000000;
+   -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+   box-shadow: 1px 1px 5px 2px #000000;
+   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.jcrop-holder #evePreview-pane {
+   display: block;
+   position: absolute;
+   z-index: 2000;
+   top: 10px;
+   right: -388px;
+   padding: 6px;
+   border: 1px #000000 solid;
+   border: 1px rgba(0, 0, 0, .4) solid;
+   background-color: white;
+
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   -webkit-box-shadow: 1px 1px 5px 2px #000000;
+   -moz-box-shadow: 1px 1px 5px 2px #000000;
+   -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+   box-shadow: 1px 1px 5px 2px #000000;
+   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+
+#preview-pane .preview-container {
+   width: 300px;
+   height: 300px;
+   overflow: hidden;
+}
+
+#evePreview-pane .preview-container {
+   width: 300px;
+   height: 300px;
+   overflow: hidden;
+}
+
+
+.cropSidebar {
+   position: absolute;
+   right: 146px;
+   bottom: 153px;
+}
+
+.cropPreview {
+   border: 1px dotted grey;
+   margin: 0 auto;
+}

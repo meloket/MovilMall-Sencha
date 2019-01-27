@@ -1,0 +1,205 @@
+﻿/*
+.logentry {
+    /*padding: 10px;!1!
+    /*border-bottom: 1px solid lightgray;!1!
+    position: relative;
+}
+
+.logentry td {
+   padding: 0.5rem;
+   text-align: left;
+   /*border: 1px solid #999;!1!
+   white-space: nowrap;
+   font: normal 17px/24px "Segoe UI", tahoma, arial, verdana, sans-serif;
+   font-size: 14px !important;
+   white-space: pre !important;
+  
+}
+.img {
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+.logentry th {
+   vertical-align: middle;
+   padding: 0.5rem;
+   text-align: center;
+   /*border: 1px solid #999;!1!
+   font: normal 17px/24px "Segoe UI", tahoma, arial, verdana, sans-serif;
+   font-size: 20px !important;
+   color: green;
+}
+   .gridtable {
+   font-size: 11px;
+   color: #333333;
+   /*background-color: #eff0f2;!1!
+   /*padding-left: 100px;!1!
+   width: 100%;
+    font: normal 17px/24px "Segoe UI", tahoma, arial, verdana, sans-serif;
+   font-size: 15px !important;
+}
+
+.gridtable td {
+   position: relative;
+   /*	padding: 2px 50px ;!1!
+   padding-bottom: 15px;
+   padding-right: 100px;
+    font: normal 17px/24px "Segoe UI", tahoma, arial, verdana, sans-serif;
+   font-size: 15px !important;  
+}
+
+.gridtable th {
+   position: relative;
+   /*	padding: 2px 50px ;!1!
+   padding-bottom: 10px;
+   padding-top: 10px;
+    font: normal 17px/24px "Segoe UI", tahoma, arial, verdana, sans-serif;
+   font-size: 15px !important;
+}*/
+
+/****
+    Above css code was written by deshana for main menu screen in dataview and was built using table layout
+   below css code was written by vinay and used divs instead of table layout.   
+*****/
+
+.busMenu {    /* INPROFILE BUSINESS DATAVIEW*/
+   padding-bottom: 8px;
+
+}
+
+/*.busCategoryMenu {    /* INPROFILE BUSINESS DATAVIEW!1!
+   padding-bottom: 25px;
+
+}*/
+.main-div {
+   position: relative;
+   /*top: 100px;*/
+   cursor: pointer;
+   height: 220px;
+   width: 100%;
+   /* margin: auto;*/
+
+   /*background-color: #fbf5f5;*/
+}
+
+.main-BusType {
+   /*position: relative;*/
+   /*top: 100px;*/
+   cursor: pointer;
+   min-width:300px;
+   margin-top: 135px;
+   margin-left: 200px;
+   padding: 25px;
+   display: inline-block;
+   font-size: 16px;
+   /*background-color: skyblue;*/
+   border: 1px solid #999;
+ 
+}
+.main-info-BusType {
+   margin-left: 112px;
+   margin-top: -250px;
+    display: inline-block;
+     border: 1px solid #999;
+      padding: 25px;
+       font-size: 14px;
+        background-color: #e7f2fa;
+}
+.menu-item
+{
+   position: relative;
+   float: left;
+   box-sizing: border-box; /* Opera/IE 8+ */
+   height: 100%;
+   width: 16%;
+   padding: 5px;
+   -moz-transition: background-color 1s ease;
+   -o-transition: background-color 1s ease;
+   -webkit-transition: background-color 1s ease;
+   transition: background-color 1s ease;
+   /*background-color: #e3d5d9;*/
+   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+}
+
+.image-div {
+   position: relative;
+   right: 0;
+   left: 0;
+   height: 30%;
+   width: 30%;
+   margin: auto;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   -moz-border-sizing: border-box;
+}
+
+.text-div {
+   position: relative;
+   right: 0;
+   left: 0;
+   /* Opera/IE 8+ */
+   overflow: auto;
+   height: 70%;
+   width: 100%;
+   padding: 5px;
+   text-align: center;
+   /* background-color : #b2fdfc; */
+   webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box; /* Firefox, other Gecko */
+}
+
+.mainMenuDv h3 {
+   margin: 0 auto 10px auto;
+   font: normal 17px/24px "Segoe UI", tahoma, arial, verdana, sans-serif;
+}
+
+.mainMenuDv p {
+   margin: auto;
+   width: 100%;
+}
+
+.menu-item:hover {
+   background-color: #c5e3f9;
+   -o-transition: background-color 1s ease;
+   -webkit-transition: background-color 1s ease;
+   -moz-transition: background-color 1s ease;
+   transition: background-color 1s ease;
+}
+
+
+.deleteicon {
+   background-image: url("../icons/delete1.png");
+   cursor: pointer;
+   /* top: 10px;*/
+   display: block;
+   height: 16px;
+   left: 92%;
+   position: absolute;
+   width: 16px;
+
+   /*bottom: 80px;*/
+}
+
+.editicon {
+   background-image: url("../icons/edit.png");
+   cursor: pointer;
+   /* top: 10px;*/
+   display: block;
+   height: 16px;
+   left: 85%;
+   position: absolute;
+   width: 16px;
+
+   /*bottom: 80px;*/
+}
+.showTime {
+   border: 2px solid #999;
+   margin-top: 20px !important;
+   margin-left: 8px !important;
+   margin-right: 8px !important;
+  
+}

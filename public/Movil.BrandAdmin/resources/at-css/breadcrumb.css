@@ -1,0 +1,72 @@
+﻿.bf-example1 {
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.preserveBreadcrumbColor {
+   font-weight: bold;
+   color: #126daf !important;
+}
+
+.preserveAfterColor a:after { color: #545656 !important; }
+
+.breadcrumb {
+   display: block;
+   box-sizing: border-box;
+   width: 100%!important;
+   margin-bottom: 20px;
+   padding: 0px;
+   background-color: #CBDFF6;
+   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+   font-size: 13px;
+   color: #333;
+   line-height: 1.428571429;
+   text-align: center;
+   list-style: none;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+}
+
+.breadcrumb > li {
+   display: inline-block;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.breadcrumb a {
+   color: #545656;
+   margin-left: 38px;
+   margin-right: 38px;
+   text-decoration: none;
+}
+
+.instbreadcrumb {
+   display: block;
+   box-sizing: border-box;
+   width: 100%!important;
+   margin: 0;
+   padding: 0px;
+   background-color: #ee8c6f;
+   font-size: 16px;
+   color: #ffffff;
+   line-height: 1.428571429;
+   text-align: center;
+   list-style: none;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+}
+
+.instbreadcrumb > li {
+   display: inline-block;
+   padding-top: 2px;
+   padding-bottom: 8px;
+}
+
+.instbreadcrumb a {
+   color: #ffffff;
+   margin-left: 27px;
+   margin-right: 27px;
+   text-decoration: none;
+}
+

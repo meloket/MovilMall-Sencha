@@ -1,0 +1,282 @@
+﻿.movilMallLogo { margin-top: -2px; }
+
+.homeScreenStatusBar {
+   background-color: #ffffff !important;
+   color: #2D2D2D;
+   border-top: 1px solid #c8c8c8 !important;
+}
+
+.homeScreenStatusBar .x-toolbar-text { color: #2D2D2D !important; }
+
+.mainHeader {
+   margin-bottom: 10px;
+   position: relative;
+}
+
+.mainHeaderTitle {
+   font-size: 62px;
+   color: #4E565C;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.mainHeaderSubtext {
+   color: #4E565C;
+   text-align: center;
+   font-size: 13px;
+   line-height: 1.2857em;
+   margin-bottom: 15px !important;
+   font-weight: bold;
+}
+
+.bottom-line {
+   bottom: 0;
+   left: 50%;
+   margin-left: -180px;
+   top: 112px;
+   width: 360px;
+   background: #50BBEB;
+   height: 1px;
+   position: absolute;
+}
+
+.animated {
+   -moz-animation-duration: 2s;
+   -o-animation-duration: 2s;
+   -o-animation-fill-mode: both;
+   animation-fill-mode: both;
+   -webkit-animation-duration: 2s;
+   animation-duration: 2s;
+   -webkit-animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceIn {
+   0% {
+         opacity: 0;
+         -webkit-transform: scale(.3);
+         -moz-transform: scale(.3);
+         -ms-transform: scale(.3);
+         -o-transform: scale(.3);
+         transform: scale(.3);
+      }
+
+   50% {
+          opacity: 1;
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+       }
+
+   70% {
+          -webkit-transform: scale(.9);
+          -moz-transform: scale(.9);
+          -ms-transform: scale(.9);
+          -o-transform: scale(.9);
+          transform: scale(.9);
+       }
+
+   100% {
+           -webkit-transform: scale(1);
+           -moz-transform: scale(1);
+           -ms-transform: scale(1);
+           -o-transform: scale(1);
+           transform: scale(1);
+        }
+}
+
+@-moz-keyframes bounceIn {
+   0% {
+         opacity: 0;
+         -webkit-transform: scale(.3);
+         -ms-transform: scale(.3);
+         -moz-transform: scale(.3);
+         -o-transform: scale(.3);
+         transform: scale(.3);
+      }
+
+   50% {
+          opacity: 1;
+          -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+       }
+
+   70% {
+          -webkit-transform: scale(.9);
+          -ms-transform: scale(.9);
+          -moz-transform: scale(.9);
+          -o-transform: scale(.9);
+          transform: scale(.9);
+       }
+
+   100% {
+           -webkit-transform: scale(1);
+           -ms-transform: scale(1);
+           -moz-transform: scale(1);
+           -o-transform: scale(1);
+           transform: scale(1);
+        }
+}
+
+@keyframes bounceIn {
+   0% {
+         opacity: 0;
+         -webkit-transform: scale(.3);
+         -ms-transform: scale(.3);
+         -moz-transform: scale(.3);
+         -o-transform: scale(.3);
+         transform: scale(.3);
+      }
+
+   50% {
+          opacity: 1;
+          -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+       }
+
+   70% {
+          -webkit-transform: scale(.9);
+          -ms-transform: scale(.9);
+          -moz-transform: scale(.9);
+          -o-transform: scale(.9);
+          transform: scale(.9);
+       }
+
+   100% {
+           -webkit-transform: scale(1);
+           -ms-transform: scale(1);
+           -moz-transform: scale(1);
+           -o-transform: scale(1);
+           transform: scale(1);
+        }
+}
+
+
+.bounceIn {
+   -webkit-animation-name: bounceIn;
+   -moz-animation-name: bounceIn;
+   -o-animation-name: bounceIn;
+   animation-name: bounceIn;
+}
+
+.col-md-3 {
+   position: relative;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   text-align: center;
+   font-size: 12px;
+   font-weight: 300;
+   line-height: 1.5em;
+}
+
+section.wrapper section.service-row {
+   border: none;
+   float: left;
+   margin: 0 0 60px 0;
+   padding: 0;
+   overflow: visible;
+}
+
+section.wrapper section.service-row:last-child { margin-bottom: 30px; }
+
+section.wrapper section.service-row .service-desc {
+   margin: 0 0 0 100px;
+   padding-top: 15px;
+}
+
+section.wrapper section.service figure {
+   float: left;
+   margin: 15px 0 0 0 !important;
+}
+
+section.wrapper section.service-row figure {
+   color: #4E565C;
+   font-size: 28px;
+   height: 75px;
+   margin: 0 auto 51px auto;
+   padding: 25px 0 0;
+   position: relative;
+   text-align: center;
+   width: 75px;
+   -moz-transition: box-shadow .2s;
+   -o-transition: box-shadow .2s;
+   -webkit-transition: box-shadow .2s;
+   transition: box-shadow .2s;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+}
+
+				/*  service icon animation
+				================================================== */
+
+section.wrapper section.service-row figure:after {
+   content: '';
+   height: 100%;
+   pointer-events: none;
+   position: absolute;
+   width: 100%;
+   -moz-box-sizing: content-box;
+   -o-box-sizing: content-box;
+   -webkit-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+section.wrapper section.service-row figure:after {
+   left: 0;
+   padding: 0;
+   top: 0;
+   -moz-transition: -moz-transform .2s, opacity .2s;
+   -o-transition: -o-transform .2s, opacity .2s;
+   -webkit-transition: -webkit-transform .2s, opacity .2s;
+   transition: transform .2s, opacity .2s;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+   box-shadow: 0 0 0 2px #4E565C;
+}
+
+section.wrapper section.service-row div:hover figure:after {
+   -moz-transform: scale(0.84);
+   -ms-transform: scale(0.84);
+   -o-transform: scale(0.84);
+   -webkit-transform: scale(0.84);
+   transform: scale(0.84);
+}
+
+section.wrapper section.service-row div:hover figure { box-shadow: 0 0 0 10px rgba(80, 187, 235, 0.4) }
+
+.col-md-3 h4 {
+   font-size: 18px;
+   line-height: 1em;
+   color: #4E565C;
+   margin: 0;
+   font-weight: normal;
+}
+
+.col-md-3 p {
+   color: #818A90;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 1.1250em;
+   margin: 10px 0;
+   width: 100%!important;
+}
+
+.service-row span.top-line {
+   top: 105px;
+   left: 50%;
+   margin-left: -45px;
+   background: #50BBEB;
+   height: 1px;
+   position: absolute;
+   width: 90px;
+}

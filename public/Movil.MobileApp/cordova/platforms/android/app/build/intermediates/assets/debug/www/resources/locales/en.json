@@ -1,0 +1,366 @@
+﻿{
+    "tabs" : {
+        "one"   : {
+            "html"  : "This is the first tab",
+            "title" : "First Tab"
+        },
+        "two"   : {
+            "html"  : "This is the second tab",
+            "title" : "Second Tab"
+        },
+        "three" : {
+            "html"  : "This is the third tab",
+            "title" : "Third Tab"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "First Page"
+        },
+        "extra" : {
+            "title" : "Extra Page"
+        }
+    },
+    "buttons" : {
+        "save": "Save",
+        "cancel":"Cancel",
+        "coupencode":"Coupon",
+        "locateStore":"Map",
+       "post":"Post",
+        "favourite":"Favourite",
+        "viewOffers":"View Offers",
+        "markonCal":"Mark on Calender",
+        "like":"Like",
+         "share":"Share",
+         "ScanQRcode":"Scan a QR Code",
+       "continue": "Continue"
+        
+    },
+    "misc" : {
+        "bottomTitle"   : "Bottom Toolbar",
+        "loadLocaleMsg" : "Loading...",
+        "back"          : "Back"
+    },
+    "fields" : {
+        "name" : "Name",
+        "dateLabel" : "Date",
+        "datePlaceholder" : "Choose Date"
+    }, 
+    "fieldsets" : {
+        "title" : "Fieldset Title",
+        "instructions" : "fieldset instructions"
+    },
+
+    "settings":{
+            "profileView":{
+            "title": "Edit"
+            },
+            "MovilMallabout":{
+            "html":"<p class='settingsAbout'>MovilMall is a mobile application that helps you save on your shopping, entertainment, and favorite events. Through giving your social networks and Like your favorite deals, MovilMall allows you to accumulate points in each store before being cangeados for merchandise. Sign up today and follow our social networks to get the best deals and find out about the best events nationwide.</p>"
+            },
+
+            "followUs":{
+            "html":"<div class='main'>" +
+                     "<img class='movilMallTextImage' src='resources/images/movilTex1t.png'></img>" +
+                     "<p class='termsOfService'><span id='privacyLink' style='text-decoration:underline;'>Privacy</span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span id='terms&ServiceLink' style='text-decoration:underline;'>Terms of Service</span></p>" +
+                     "<p class='copyrightText'>All rights reserved © 2018 Mobile Mall</p>" +
+                     "<div class='socialIcons'>" +
+                     "<img id='settingsFb' src='resources/icons/social/socialBlue/fb.png'></img>" +
+                     "<img id='settingsGp' src='resources/icons/social/socialBlue/gp.png'></img>" +
+                     "<img id='settingsTwi' src='resources/icons/social/socialBlue/twi.png'></img>" +
+                     "<img id='settingsYt' src='resources/icons/social/socialBlue/yt.png'></img>" +
+                     "<img id='settingsPin' src='resources/icons/social/socialBlue/pin.png'></img>" +
+                     "<img id='settingsIg' src='resources/icons/social/socialBlue/ig.png'></img>" +
+                     "</div>" +
+                     "</div>"
+            },
+             "changePass":{
+               "old":{
+               "placeHolder":"Old Password"
+                  },
+                    "new":{
+               "placeHolder":"New Password"
+                  },
+                    "confirm":{
+               "placeHolder":"Confirm Password"
+                  }
+            }
+
+    },
+    "offers":{
+         "profileview":{
+               "ends":{
+                  "html": "<div class='offerExpBadge'>" +
+                  "<p class='expiryText'>Ends</p>" +
+                  "<p class='expiryText' id='validTo'></p>" +
+                  "</div>" +
+                  "<div class='offerBadge'></div>"
+                  },
+
+               "moredetails":{
+                "html": "<div class='offerDetails'>" +
+               "<div class='offerInside'>" +
+               "<p class='offerTagLineTitle' id='tagLine'></p>" +
+               "<div class='offerDetailEllipsisDiv'>" +
+               "<p class='offerDescription' id='finePrint'></p>" +
+               "<p class='offerDetailEllipsis' id='offerDetailEllipsis'></p>" +
+                "</div>" +
+               //View more Details
+               "<p class='viewMoreDetails' id='offDetBut'>More Details &raquo;</p>" +
+               "</div>" +
+               "</div>"
+               },
+
+                "comments":{
+                "html": "<p style='font-size:0.9em;'><b>Comments</b></p>"
+               },
+                "viewComments":{
+               "html": "<p class='viewMoreDetails' id='fViewAllCom'>View More Comments &raquo;</p>"
+        },
+         "cmtTxtPlaceHolder":{
+               "placeHolder": "Leave a comment"
+        },
+        "searchPlaceHolder":{
+            "placeHolder": "Type..."
+        }
+        
+         }
+    },
+      "settingsOffers":{
+     "profileview":{
+         
+          "moredetails":{
+                "html": "<div class='offerDetails'>" +
+               "<div class='offerInside'>" +
+               "<p class='offerTagLineTitle' id='settingsOfferTagLine'></p>" +
+                "<div class='offerDetailEllipsisDiv'>" +
+               "<p class='offerDescription' id='settingsOfferFinePrint'></p>" +
+                "<p class='offerDetailEllipsis' id='settingsOfferDetailEllipsis'></p>" +
+                "</div>" +
+               //View more Details
+               "<p class='viewMoreDetails' id='settingsOffDetBut'>More Details &raquo;</p>" +
+               "</div>" +
+               "</div>"
+               },
+       "comments":{
+                "html": "<p style='font-size:0.9em;'><b>Comentarios</b></p>"
+               },
+        "viewComments":{
+               "html": "<p class='viewMoreDetails' id='settingsViewAllCom'>View All Comments &raquo;</p>"
+        }
+       } 
+
+    },
+
+      "places":{
+            "profileview":{
+                  "address":{
+                        "html":  "<div class='placeDetail'>" +
+                                    "<p class='placeDescription' id='placeDescription'><p>" +
+                                    "<div class='placeOpenHours' id= 'placesWh'>" +
+                                    "<p><b>Schedule</b></p>" +
+                                    "<p id='fromwh'></p>" +
+                                    "</div>" +
+                                    "<div class='placeAddress'>" +
+                                        "<p><b>Address</b></p>" +
+                                    "<p class='insideMallAddress' id='insideMallAdress'></p>" +
+                                    "<p class='locationWithinMall' id='locationWithinMall'></p>" +
+                                    "</div>" +
+                                    "</div>"
+                  }
+            },
+             "offers":{
+               "profileview":{
+                     "ends":{
+                         "html": "<div class='offerExpBadge'>" +
+                                 "<p class='expiryText'>Ends</p>" +
+                                 "<p class='expiryText' id='placesOffersValidTo'></p>" +
+                                 "</div>" +
+                                 "<div class='offerBadge'></div>"
+                     },
+                      "moredetails":{
+                         "html": "<div class='offerDetails'>" +
+                                 "<div class='offerInside'>" +
+                                 "<p class='offerTagLineTitle' id='placesOffersTagLine'></p>" +
+                                   "<div class='offerDetailEllipsisDiv'>" +
+                                 "<p class='offerDescription' id='placesOffersFineprint'></p>" +
+                                   "<p class='offerDetailEllipsis' id='placesOfferDetailEllipsis'></p>" +
+                                 "</div>" +
+                                 "<p class='viewMoreDetails' id='placesofferDetails'>More Details &raquo;</p>" +
+                                 "</div>" +
+                                 "</div>"
+                    },
+                     "viewComments":{
+                               "html": "<p class='viewMoreDetails' id='placesOffersViewAllCom'>View More Comments &raquo;</p>"
+               },
+                 "socials":{
+                        "html":"<p style='font-size:0.7em; padding: 0.4em 0em 0.4em 0.4em; color:black;'>Visit our social networks</p>"
+                  }
+          }
+          }
+    },
+
+    "stores":{
+         "profileview":{
+               "address":{
+                     "html": "<div class='placeDetail'>" +
+                            "<p class='placeDescription' id='storeDescription'><p>" +
+                            "<div class='placeOpenHours'>" +
+                            "<p><b>Schedule</b></p>" +
+                            "<p id='storeFromwh'></p>"+
+                            "</div>" +
+                            "<div class='placeAddress'>"+
+                            "<p><b>Address</b></p>" +
+                            "<p class='insideMallAddress' id='storeInsideMallAdress'></p>" +
+                            "<p class='locationWithinMall' id='storeLocationWithinMall'></p>" +
+                            "</div>" +
+                            "</div>"
+               }
+         },
+            "offers":{
+               "profileview":{
+                     "ends":{
+                         "html": "<div class='offerExpBadge'>" +
+                                 "<p class='expiryText'>Ends</p>" +
+                                 "<p class='expiryText' id='placesStoresOffersvalidTo'></p>" +
+                                 "</div>" +
+                                 "<div class='offerBadge'></div>"
+                     },
+                      "moredetails":{
+                         "html": "<div class='offerDetails'>" +
+                                 "<div class='offerInside'>" +
+                                 "<p class='offerTagLineTitle' id='placesStoresOffersTagLine'></p>" +
+                                  "<div class='offerDetailEllipsisDiv'>" +
+                                 "<p class='offerDescription' id='placesStoreOffersFineprint'></p>" +
+                                 "<p class='offerDetailEllipsis' id='placesStoresOfferDetailEllipsis'></p>" +
+                                 "</div>" +
+                                 "<p class='viewMoreDetails' id='placesStoresOffesrViewDetails'>More Details &raquo;</p>" +
+                                 "</div>" +
+                                 "</div>"
+                    },
+                     "viewComments":{
+                        "html": "<p class='viewMoreDetails' id='placesStoresOffersViewAllcmt'>View All Comments &raquo;</p>"
+                    }
+               }
+          }
+    },
+     "events":{
+         "profileview":{
+               "details":{
+                     "html":"<span style='font-size: 0.7em; line-height: 1.5em;'><b>Details</b></span>"
+               },
+                "attending":{
+                     "label":"Attending this Event?"
+               },
+               "attendees":{
+                     "html": "<div class='eventTitleBlock'>" +
+                              "<div class='eventHeaderShareImg'>" +
+                              "<img id='eveShareImg' src='resources/icons/nw-icons/share.png'></img>" +
+                              "</div>" +
+                              "<div class='eventHeaderLikeDiv'>" +
+                              "<div class='eventHeaderLikeimg' id='eveLikeIcon'></div>" +
+                              "<p class='eventProfileLikeCount' id='eventLikeCount'>0</p>" +
+                              "</div>" +
+                              "<p class='eventHeading' id='eventTitle'></p>" +
+                              "<p class='eventProfileAttendance'>Attending :&nbsp;</p>" + "<p class='eventProfileAttendance' id = 'eventProfileAttendees' ></p>" +
+                              "</div>"
+               },
+                 "viewAllCmt":{
+                     "html":"<p class='viewMoreDetails' id='eViewAllCom'>View All Comments &raquo;</p>"
+               }
+         },
+          "tabPanel":{
+               "events":{
+                     "title":"Eventos"
+               }
+         }
+    },
+      "pullRefresh":{
+         "Text":{
+               "pullText": "english"
+         }
+    },
+
+   "parking":{
+     "done":{
+            "html":"Done"
+         },
+            "photo":{
+            "html":"photo"
+         },
+         "main":{
+            "html":"<div class='parkingContainer'>" +
+               "" +
+               "<p class='parkingFont'>Parking Guide</p>" +
+               "<p class='parkingMethod'>Choose a method below</p>" +
+               "</div>"
+         },
+         "mapViewCancel":{
+                  "html":"Cancel"
+         },
+         "mapViewSave":{
+                  "html":"save"
+         },
+         "mapViewLocate":{
+                "html":"Locate me"
+         },
+           "audioNuevo":{
+               "html":"New"
+         },
+           "audioStopRec":{
+               "html":"stop Recording"
+         },
+           "audioStop":{
+               "html":"stop"
+         },
+
+         "blocks":{
+                  "html":"<div class='parkingLocator'>" +
+                  "<img class='locatorImage' id='pinMapDataView' src='./resources/icons/Parking/parkingLocator.png'>" +
+                  "<p class='locatorFont'>Pin a Map</p>" +
+                  "</div>" +
+               
+                  "<div class='parkingLocator'>" +
+                  "<img class='graberImage' id='takePhotoDataview' src='./resources/icons/Parking/parkingCamera.png'>" +
+                  "<p class='locatorFont' id='photoText'>Take a Picture</p>" +
+                  "</div>" +
+
+                  "<div class='parkingLocator'>" +
+                  "<img class='locatorImage'  id='takeAudio'  src='./resources/icons/Parking/parkingMic.png'>" +
+                  "<p class='locatorFont'>Record a Memo</p>" +
+                  "</div>" +
+
+                  "<div class='parkingLocator'>" +
+                  "<img class='graberImage' id='makeNoteDataView' src='./resources/icons/Parking/parkingPen.png'>" +
+                  "<p class='locatorFont' id='noteText'>Write a Note</p>" +
+                  "</div>" 
+         }
+  
+   },
+   
+   "Offers":{
+      "emptyText":"<img style='width: 300px;height: 236px; display:block; margin:4em auto 0 auto;' src='./resources/images/noOffersEnglish.png' >"
+
+   },
+    
+   "Places":{
+      "emptyText":"a"
+   },
+    "Events":{
+      "emptyText":"<img style='width: 300px;height: 236px; display:block; margin:4em auto 0 auto;' src='./resources/images/emptyEvent.png' >"
+
+   },
+   "pullRefresh":{
+         "pullText":"Slide the screen down to refresh offers."
+   },
+   "alerts" : {
+    "one"   : {
+      "title"  : "This is my first alert",
+      "message" : "The alert's message"
+    }
+  }
+
+
+    
+    
+}

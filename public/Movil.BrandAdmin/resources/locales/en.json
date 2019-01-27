@@ -1,0 +1,609 @@
+﻿{
+    "tabs" : {
+        "one"   : {
+            "html"  : "This is the first tab",
+            "title" : "First Tab"
+        },
+        "two"   : {
+            "html"  : "This is the second tab",
+            "title" : "Second Tab"
+        },
+        "three" : {
+            "html"  : "This is the third tab",
+            "title" : "Third Tab"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "First Page"
+        },
+        "extra" : {
+            "title" : "Extra Page"
+        }
+    },
+    "buttons" : {
+
+        "profile":"Profile",
+        "locations" : "Locations",
+        "offers"   : "Offers",
+        "movies"   : "Movies",
+        "events": "Events",
+        "analytics":"Analytics",
+        "new":"New",
+        "search":"Search",
+        "back": "Back",
+        "save": "Save",
+        "cancel":"Cancel",
+         "upload": "Upload",
+         "next": "Next",
+         "finish":"Finish",
+        "remove": "Remove",
+        "exportToexcel": "Export data to Excel",
+        "buttonText":"Select File..",
+        "generate":"Generate",
+        "points": "Points",
+        "go":"Go"
+    },
+    "misc" : {
+        "bottomTitle"   : "Bottom Toolbar",
+        "loadLocaleMsg" : "Loading...",
+        "back"          : "Back"
+    },
+    "fields" : {
+        "name" : "Name",
+        "dateLabel" : "Date",
+        "datePlaceholder" : "Choose Date"
+    }, 
+    "fieldsets" : {
+        "title" : "Fieldset Title",
+        "instructions" : "fieldset instructions"
+    },
+     "QRcode":{
+         "fieldLabel":"QR Code"
+      },
+      "social":{
+            "html":"<b>Add the direct link to your social network</b>"
+      },
+     "grid" : {
+               "locations":{
+                     "title" : "Locations",
+                     "srno":{
+                     "text":"Sr.No"
+                     },
+                     "locations":{
+                     "text":"Location"
+                     },
+                     "city":{
+                     "text":"City"
+                     },
+                     "state":{
+                     "text":"State"
+                     },
+                     "inmall":{
+                     "text":"In Mall?"
+                     },
+                     "action":{
+                     "text":"Action"
+                     },
+                     "note":{
+                       "html":"Copy the QR code for each location and paste it where it says -Enter text to share here, after the QR code is generated, click the right mouse button on the image and save it to your desktop so that you can print . This is the code that your visitors will use to accumulate points for each visit to your store or premises."
+                     }
+                           },  
+
+               "offers":{
+               "title" : "Offers",
+
+                     "srno":{
+                     "text":"Sr.No."
+                     },
+                     "offersDetail":{
+                     "text":"Offer Details"
+                     },
+                     "action":{
+                     "text":"Action"
+                     },
+                      "city":{
+                     "text":"City"
+                     },
+                     "click":{
+                     "text":"Clicks"
+                     },
+                     "like":{
+                     "text":"Likes"
+                     }
+                     },
+          "offerslocgrid":{
+              
+                     "srno":{
+                     "text":"Sr.No."
+                     },
+                     "location":{
+                     "text":"Location"
+                     },
+                     "city":{
+                     "text":"City"
+                     },
+                     "state":{
+                     "text":"State"
+                     },
+                      "inmall":{
+                     "text":"In mall?"
+                     },
+                      "Qrcode":{
+                     "text":"QR Code"
+                     }
+                     },
+       "moviesgrid":{
+               "title" : "Movies",
+                     "srno":{
+                     "text":"Sr.No."
+                     },
+                     "name":{
+                     "text":"Name"
+                     },
+                     "rating":{
+                     "text":"Rating"
+                     },
+                     "runtime":{
+                     "text":"Runtime"
+                     },
+                      "action":{
+                     "text":"Action"
+                     }
+                     },
+    
+
+        "movieslocgrid":{
+               "title" : "Locations",
+                     "location":{
+                     "text":"Location"
+                     },
+                     "city":{
+                     "text":"City"
+                     },
+                     "state":{
+                     "text":"State"
+                     },
+                       "favourited":{
+                     "text":"Favourited"
+                     }
+                  },
+
+       "eventsgrid":{
+               "title" : "Events",
+                     "srno":{
+                     "text":"Sr.No."
+                     },
+                     "eventname":{
+                     "text":"Event Name"
+                     },
+                     "action":{
+                     "text":"Action"
+                     },
+                       "date":{
+                     "text":"Date"
+                     },
+                     "attendees":{
+                     "text":"Attendees"
+                     }
+                  },
+        "analyticsfavgrid":{
+               "title" : "Users who have favourited the locations",
+                     "name":{
+                     "text":"Name"
+                     },
+                     "email":{
+                     "text":"Email"
+                     },
+                     "city":{
+                     "text":"City"
+                     },
+                     "state":{
+                     "text":"State"
+                     },
+                     "DOB":{
+                     "text":"DOB"
+                     },
+                     "points":{
+                     "text":"Points"
+                     }
+                  },
+                   "analyticsfavoffergrid":{
+               "title" : "Users who have liked the offer"
+               },
+      "analyticsfaveventgrid":{
+               "title" : "Users attending this event"
+               },
+               
+      "Point":{
+            "title" : "Points",
+            
+            "points":{
+               "text":"Points"
+            }
+      }
+                     
+               },
+
+   "form" : {
+      "locations":{
+                     "title" : "Locations Detail",
+
+                     "location":{
+                     "fieldLabel":"Location"
+                     },
+                     "location":{
+                     "emptyText":"Name of the location"
+                     },
+                     "insideMall":{
+                      "boxLabel":"Location inside Mall?"
+                     },
+                     "address":{
+                     "fieldLabel":"Address"
+                     },
+                     "state":{
+                     "fieldLabel":"State"
+                     },
+                     "city":{
+                     "fieldLabel":"City"
+                     },
+                     "mall":{
+                     "fieldLabel":"Mall"
+                     },
+                      "locWithinMall":{
+                     "fieldLabel":"Location within Mall"
+                     },
+                     "postalCode":{
+                     "fieldLabel":"Postal Code",
+                     "emptyText":"Opcional"
+                     },
+                    
+                    "workingHours":{
+                     "fieldLabel":"Working Hours"
+                     },
+
+                     "workingHoursFrom":{
+                     "fieldLabel":"From"
+                     },
+
+                      "workingHoursTo":{
+                     "fieldLabel":"To"
+                     },
+                       "lat":{
+                        "emptyText":"Enter Latitude"
+                     },
+                       "long":{
+                        "emptyText":"Enter Longitude"
+                     }
+                           },
+
+      "offersinfo":{
+                     "title" : "Offers Info",
+
+                     "tagline":{
+                     "fieldLabel":"Offers Tagline <span style='color:red;'>*</span>:&nbsp;&nbsp;&nbsp;<span id='offerTagLineCharRemaining'></span>/28"
+                     },
+                     "status":{
+                      "text":"Status"
+                     },
+                     "offersimage":{
+                      "html":"Offers Image"
+                     },
+                    
+                     "couponcode":{
+                      "fieldLabel":"Coupon Code"
+                     },
+                      "holdoffer":{
+                      "boxLabel":"Hold this Offer?"
+                     },
+                     "validfrom":{
+                      "fieldLabel":"Valid From",
+                       "emptyText":"DD/MM/YY"
+                     },
+                     "validto":{
+                      "fieldLabel":"Valid Until",
+                       "emptyText":"DD/MM/YY"
+                     },
+                       "detail1":{
+                     "html":"Offer details"
+                     },
+                      "detail2":{
+                     "html":"Example of how"
+                     },
+                      "detail3":{
+                     "html":"you will see"
+                     },
+                       "step1":{
+                      "html":"<b>Step 1</b>"
+                     },
+                      "step2":{
+                      "html":"<b>Step 2</b>"
+                     }
+                   
+               },
+       "offersdescription":{
+                    
+                     "fineprint":{
+                     "fieldLabel":"Fine Print"
+                     },
+                     "tags":{
+                      "fieldLabel":"Tags"
+                     }
+                     },
+       "profileidentity":{
+                    
+                     "name":{
+                     "fieldLabel":"Name"
+                     },
+                     "contactperson":{
+                      "fieldLabel":"Contact Person"
+                     },
+                      "description":{
+                      "fieldLabel":"Description"
+                     },
+                      "email":{
+                      "fieldLabel":"E-mail Address"
+                     },
+                      "contactno":{
+                      "fieldLabel":"Contact No"
+                     },
+                      "website":{
+                      "fieldLabel":"Página Web"
+                     }
+                    
+                     },
+
+        "moviesinfo":{
+                    
+                     "name":{
+                     "fieldLabel":"Movie Name"
+                     },
+                     "releasedate":{
+                      "fieldLabel":"Release Date"
+                     },
+                      "runtime":{
+                      "fieldLabel":"Runtime"
+                     },
+                      "genre":{
+                      "fieldLabel":"Genre"
+                     },
+                      "rating":{
+                      "fieldLabel":"Rating"
+                     },
+                       "trailerlink":{
+                      "fieldLabel":"Trailer Link"
+                     },
+                       "director":{
+                      "fieldLabel":"Director"
+                     },
+                       "cast":{
+                      "fieldLabel":"Cast"
+                     },
+                       "synopsis":{
+                      "fieldLabel":"Synopsis"
+                     }
+                     },
+
+       "eventsinfo":{
+                    
+                     "name":{
+                     "fieldLabel":"Event Name"
+                     },
+                     "date":{
+                      "fieldLabel":"Date",
+                      "emptyText":"DD/MM/YY"
+                     },
+                      "time":{
+                     "fieldLabel":"Time"
+                     },
+                     "eventloc":{
+                      "fieldLabel":"Event Location"
+                     },
+                      "eventdetail":{
+                      "fieldLabel":"Event Details"
+                     }
+               },
+                "moviesphoto":{
+                     "title": "Movie Photo"
+    },
+     "eventsphoto":{
+                     "title": "Event Photo",
+
+                       "detail1":{
+                     "html":"Event details"
+                     }
+    },
+     "profilephotoinfo":{
+                     "logo":{
+                     "html": "Add your logo or Image. 250kb max. No minimum size of 300*225."
+                     },
+                      "note":{
+                     "text":"*After upload or remove photo ,please click on save button"
+                     },
+                     "proImage":{
+                     "html": "Add your logo or Image. 250kb max. No minimum size of 300x100."
+                     },
+                       "photoTitle":{
+                        "html":"<b>Store's Photo</b>"
+                     },
+                      "logoTitle":{
+                        "html":"<b>Store's Logo</b>"
+                     }
+    },
+     "moviesshowtimes":{
+                     "title": "Add Show Times",
+
+                      "location":{
+                      "fieldLabel":"Location"
+                     },
+                      "date":{
+                      "fieldLabel":"Date",
+                       "emptyText":"DD/MM/YY"
+                     },
+                      "showtime":{
+                      "fieldLabel":"Show Times"
+                     }
+
+    },
+    "uploadform":{
+    "fieldLabel":"File Location"
+    }
+               },
+  "tabpanel":{
+      "analyticsloc":{
+      "title": "Location"
+      },
+      "analyticsoffer":{
+      "title": "Offer"
+      },
+      "analyticsevents":{
+      "title": "Events"
+      },
+       "moviestab1title":{
+               "title" : "Information"
+                     },
+       "moviestab2title":{
+               "title" : "Locations/Show Times"
+             
+                  },
+        "eventstab1title":{
+               "title" : "Events Info"
+                     },
+        "eventstab2title":{
+               "title" : "Social Info"
+                     },
+        "eventstab3title":{
+               "title" : "Images"
+                     }
+      },
+  "menu" : {
+      "logout":{
+      "text":"Logout"
+      },
+      "changepass":{
+      "text":"Change Password"
+      }
+      },
+    "months" : {
+        "1"  : "January",
+        "2"  : "February",
+        "3"  : "March",
+        "4"  : "April",
+        "5"  : "May",
+        "6"  : "June",
+        "7"  : "July",
+        "8"  : "August",
+        "9"  : "September",
+        "10" : "October",
+        "11" : "November",
+        "12" : "December"
+    },
+   
+     "maintxt":{
+    "text":"Welcome"
+    },
+    "breadcrumb":{
+      "profile":{
+      "html":"<div id='crumbs2' class='bf-example1'><ul class='instbreadcrumb'>" +
+     "<li id='Identity_tab'><a href='#' id='tab1'>Identity</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='BusinessType_tab'><a href='#' id='tab2'>Business Type</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='ProductCategories_tab'><a href='#' id='tab3'>Product Categories</a>&nbsp;&nbsp;&#8250;</li>" +
+        "<li id='Photograph_tab'><a href='#' id='tab4'>Photograph</a>&nbsp;&nbsp;&#8250;</li>" +
+            "<li id='social_tab'><a href='#' id='tab5'>Social</a>&nbsp;&nbsp;</li>" + "</ul></div>"
+
+    },
+      "offer":{
+     "html":
+  "<div id='crumbs2' class='bf-example1'><ul class='instbreadcrumb'>" +
+     "<li id='offersinfo_tab'><a href='#' id='tab1'>Offer Info</a>&nbsp;&nbsp;&#8250;</li>" +
+      "<li id='images_tab'><a href='#' id='tab5'>Images</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='description_tab'><a href='#' id='tab2'>Description</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='categories_tab'><a href='#' id='tab3'>Categories</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='locations_tab'><a href='#' id='tab4'>Locations</a>&nbsp;&nbsp;</li>" + "</ul></div>"
+         }
+},
+"window":{
+
+"profile":{
+         "uploadlogo":{
+               "title":"Upload Logo"
+         },
+          "uploadimage":{
+               "title":"Upload Image"
+         }
+         },
+   "offer":{
+         "upload":{
+               "title":"Upload Photo for Offer"
+         }
+         },
+
+"events":{
+      "upload":{
+            "title":"Photo Upload Of Event"
+            }
+            }
+        },
+
+          "title":{
+            "titleText": "hola"
+   },
+    "commenttitle": {
+            "offers": {
+                  "title": "Comments"
+            },
+            "events": {
+                  "title": "Comments"
+            }
+    },
+
+     "save":{
+                     "tooltip": "Save"
+                     },
+
+   "add":{
+         "offer": {
+         "tooltip":"New Offer"
+         },
+          "location":{
+          "tooltip":"New Location"
+         },
+         "movieshowtime":{
+          "tooltip":"New Showtime"
+         },
+         "events":{
+          "tooltip":"New Event"
+         }
+   },
+
+   "back":{
+     "tooltip":"Back"
+   },
+    "cancel":{
+   "tooltip":"Cancel"
+   },
+    "search":{
+     "tooltip":"Search"
+   },
+    "edit":{
+     "tooltip":"Edit"
+   },
+     "delete":{
+     "tooltip":"Delete"
+   },
+    "changepwd":{
+         "title": "Change Password",
+
+         "old":{
+            "fieldLabel":"Old Password"
+         },
+         "new":{
+           "fieldLabel":"New Password"
+         },
+         "confirm":{
+          "fieldLabel":"Confirm Password"
+         }
+   }
+
+
+}

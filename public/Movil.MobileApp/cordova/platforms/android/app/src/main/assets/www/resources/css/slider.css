@@ -1,0 +1,198 @@
+﻿.slide1 {
+   -webkit-animation-duration: .100s;
+   -moz-animation-duration: .100s;
+   -o-animation-duration: .100s;
+   animation-duration: .100s;
+   -webkit-transition-timing-function: cubic-bezier(0.275, 0.080, 0.425, 0.855);
+   -moz-transition-timing-function: cubic-bezier(0.275, 0.080, 0.425, 0.855);
+   -o-transition-timing-function: cubic-bezier(0.275, 0.080, 0.425, 0.855);
+   transition-timing-function: cubic-bezier(0.275, 0.080, 0.425, 0.855);
+   -webkit-transform: translateX(-100%);
+   -moz-transform: translateX(-100%);
+   -ms-transform: translateX(-100%);
+   -o-transform: translateX(-100%);
+   transform: translateX(-100%);
+   z-index: 100;
+   height: 100%;
+   /*background-color: #ffffff;
+   background-color: rgba(255, 255, 255, 0.9);
+   background-image: url('../../resources/images/blurbg.jpg');*/
+   position: absolute !important;
+   /*background: none;*/
+   left: 0;
+   /*opacity: 0.9;
+   filter: alpha(opacity=80);
+   */
+}
+
+.slide1 .x-innerhtml {
+   padding: 0px !important;
+}
+
+.slide1 .x-center {
+   right: auto;
+}
+.slide1 .x-title {
+   text-shadow: none !important;
+   margin-left: 2.5em;   
+}
+/*.slide
+{
+   background: #f1f1f1;
+}*/
+
+.offersTab .x-tab {
+   width: 25% !important;
+   height: 100% !important;
+   /*padding-top: .7em !important;*/
+   border-radius: 0em !important;
+}
+/*
+.offersTab .x-tabbar-light.x-docked-bottom .x-tab-active {
+   height: 100% !important;
+   padding-top: .7em !important;
+}*/
+
+@-webkit-keyframes slideout {
+   from {
+           -webkit-transform: translateX(-50%);
+           -moz-transform: translateX(-50%);
+           -ms-transform: translateX(-50%);
+           -o-transform: translateX(-50%);
+           transform: translateX(-50%);
+        }
+
+   to {
+         -webkit-transform: translateX(0%);
+         -moz-transform: translateX(0%);
+         -ms-transform: translateX(0%);
+         -o-transform: translateX(0%);
+         transform: translateX(0%);
+      }
+}
+
+@-moz-keyframes slideout {
+   from {
+           -webkit-transform: translateX(-50%);
+           -moz-transform: translateX(-50%);
+           -ms-transform: translateX(-50%);
+           -o-transform: translateX(-50%);
+           transform: translateX(-50%);
+        }
+
+   to {
+         -webkit-transform: translateX(0%);
+         -moz-transform: translateX(0%);
+         -ms-transform: translateX(0%);
+         -o-transform: translateX(0%);
+         transform: translateX(0%);
+      }
+}
+
+@keyframes slideout {
+   from { -webkit-transform: translateX(-50%); }
+
+   to { -webkit-transform: translateX(0%); }
+}
+
+@-webkit-keyframes slidein {
+   from { -webkit-transform: translateX(0%); }
+
+   to { -webkit-transform: translateX(-100%); }
+}
+
+.slide1.out {
+   -webkit-animation-name: slideout;
+   -moz-animation-name: slideout;
+   -o-animation-name: slideout;
+   animation-name: slideout;
+   -webkit-transform: translateX(0%);
+   -moz-transform: translateX(0%);
+   -ms-transform: translateX(0%);
+   -o-transform: translateX(0%);
+   transform: translateX(0%);
+   -webkit-box-shadow: 2px 0px 15px 0px #000000;
+   -webkit-box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 2px 0px 15px 0px #000000;
+   -moz-box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 2px 0px 15px 0px #000000;
+   box-shadow: 2px 0px 15px 0px hsla(0, 0%, 0%, 0.75);
+}
+
+.slide1.in {
+   -webkit-animation-name: slidein;
+   -moz-animation-name: slidein;
+   -o-animation-name: slidein;
+   animation-name: slidein;
+   -webkit-transform: translateX(-100%);
+   -moz-transform: translateX(-100%);
+   -ms-transform: translateX(-100%);
+   -o-transform: translateX(-100%);
+   transform: translateX(-100%);
+}
+
+/*individual list item css*/
+
+.slide1 .x-list-item {
+   color: #6b6b6b !important;
+   /*color: #ffffff !important;*/
+   border-bottom: 1px solid #d5d3d0 !important;
+   font-size: 17px;
+   border-top: none !important;
+}
+
+.slide1 .slideItem {
+   float: left;
+   /*height: 26px;
+   width: 26px;*/
+   text-align: center;
+   height: 50px;
+   padding: 0px !important;
+   margin: 0px !important;
+}
+
+.slide1 .x-item-selected {
+   background-color: #d5d3d0 !important;
+   border-top-color: #d5d3d0 !important;
+}
+
+/*****css for toolbar in main menu which contains logged in user image, name and settings icon*******/
+
+.userTopMenuToolbar .userImage {
+   height: 2.8em;
+   width: 2.8em;
+   margin-bottom: -0.3em;
+   float: left;
+}
+
+.userTopMenuToolbar .settingImage {
+   height: 26px;
+   width: 26px;
+   margin: 0.5em 0.3em 0 0;
+   float: right;
+}
+
+.userTopMenuToolbar h3 {
+   font-size: 0.9em;
+   float: left;
+   color: #ffffff;
+   margin-left: 0.5em;
+   margin-top: 0.7em;
+}
+
+.menuImage {
+   float: left;
+   padding-left: 5px;
+   width: 30px;
+   height: 52px;
+   text-align: left;
+}
+
+.menuImage img { height: 52px;}
+
+.menuTitle {
+   padding-left: 1.6em;
+   vertical-align: central;
+   float: left;
+   margin-top: 0.8em;
+}

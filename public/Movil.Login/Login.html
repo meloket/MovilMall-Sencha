@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html>
+   <head>
+
+      <!--META-->
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Login Form</title>
+
+      <!--STYLESHEETS-->
+      <!--<link href="css/style.css" rel="stylesheet" type="text/css" />-->
+      <link href="css/login.css" rel="stylesheet" type="text/css" />
+
+      <!--Scripts-->
+      <script src="scripts/login.js"> </script>
+      <!--[if IE 8]>
+         <script type="text/javascript" src="scripts/placeholders.min.js"> </script>
+      <![endif]-->
+
+   </head>
+   
+   
+   
+   <body onload="loginOnload()">
+      <p align="right">
+         <select id="lanCombo" onchange="onSelectLanCombo()">
+          <!--  <option value="" style="display:none;"></option>-->
+           <!-- <option value="" selected disabled>Please select a Language</option>-->
+            <option value="fr" selected>Spanish</option>
+            <option value="en">English</option>
+  
+         </select>
+            
+      </p>
+     
+      <div id="login-form">
+
+         <h3 id="heading">Movil Mall Login</h3>
+
+         <fieldset>
+
+            <!--<form action="javascript:void(0);" method="get">-->
+            <table>
+               <tr>
+                  
+                  <!--todo: remove value of username and password--> 
+
+                  <td>
+                     <input name="Username" type="text" placeholder="Email" id="slname" value="h@h.com"
+                            onkeydown=" if (event.keyCode == 13) {document.getElementById('loginbutton').click();} ">
+                  </td>
+                  <!-- <td rowspan="2"> <font size="2" id="ntregyet" class="text">Not Registered Yet?</font>
+                          <input type="button" id="signUp" value="Sign-Up"  class="signUpButton" onclick=" doSignUp() " /></td>-->
+               </tr>
+               
+               <tr>
+                  <td>
+                     <input name="password" type="password" placeholder="Password" id="sPassword" value="h"
+                            onfocus=" this.value = '' " onkeydown=" if (event.keyCode == 13) {document.getElementById('loginbutton').click();} " /> <!-- JS because of IE support; better: placeholder="Password" -->
+               
+             
+                  </td>  <td></td>
+                  <td> 
+                  </td>
+               </tr>
+            </table>
+            <!-- JS because of IE support; better: placeholder="Email" -->
+
+            <!--LOGIN NOTIFICATION CONTENT-->   
+            <!--LOADING TEXT --><label class="loggingintext" id="loggingInText">Please Wait..</label><br/>
+            <!--LOADING GIF IMAGE --><img src="images/myloadingimage.gif" alt="Loading...." style="display: none; margin-left: auto; margin-right: auto;" id="loading_image"/><!--END LAODING GIF-->
+           
+
+            <footer class="clearfix">
+             <span class="info">?</span><a href="#" onclick="forgotPasssword()" id="forgotPwdText">Forgot Password</a>
+            <input type="submit" name="submit" value="Login" class="button" onclick=" doLogins() " id="loginbutton"/>
+            <input type="button" name="button" value="Cancel"  onclick=" doLoginCancel() " id="cancelBtn" class="cancelLoginBtn"/>  
+              
+              
+
+            </footer>
+
+            <!--</form>-->
+
+         </fieldset>
+
+      </div> <!-- end login-form -->
+      
+     
+
+  
+   </body>
+   
+   
+   
+
+   
+</html>

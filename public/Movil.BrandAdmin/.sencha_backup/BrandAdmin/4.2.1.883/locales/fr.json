@@ -1,0 +1,90 @@
+﻿{
+    "tabs" : {
+        "one"   : {
+            "html"  : "Ceci est le premier onglet",
+            "title" : "Onglet Abord"
+        },
+        "two"   : {
+            "html"  : "Ceci est le deuxième onglet",
+            "title" : "Deuxième Onglet"
+        },
+        "three" : {
+            "html"  : "C'est le troisième onglet",
+            "title" : "Troisième Onglet"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "Premiè re Page"
+        },
+        "extra" : {
+            "title" : "Page Supplémentaire"
+        }
+    },
+    "buttons" : {
+    "profile":"Perfil",
+        "locations" : "Cerca de Tí",
+        "offers"   : "Ofertas",
+        "movies"   : "Películas",
+        "events": "Eventos",
+        "analytics":"Analítica",
+        "new":"Nuevas",
+        "search":"Busca"
+    },
+    "misc" : {
+        "bottomTitle"   : "barre d'outils en bas",
+        "loadLocaleMsg" : "Chargement en cours ...",
+        "back"          : "Retour"
+    },
+    "fields" : {
+        "name" : "Nom",
+        "dateLabel" : "la date",
+        "datePlaceholder" : "choisir la date"
+    },
+    "fieldsets" : {
+        "title" : "Ensemble de champs",
+        "instructions" : "des instructions en français"
+    },
+      
+    "grid" : {
+               "locations":{
+                     "title" : "Cerca de Tí",
+
+                     "srno":{
+                     "text":"Número"
+                     },
+                     "locations":{
+                     "text":"Cerca de Tí"
+                     },
+                     "city":{
+                     "text":"Ciudad"
+                     },
+                     "state":{
+                     "text":"Provincia"
+                     },
+                     "inmall":{
+                     "text":"En mall?"
+                     },
+                     "action":{
+                     "text":"acción"
+                     }
+                           }  
+               },
+    "months" : {
+        "1"  : "Janvier",
+        "2"  : "Février",
+        "3"  : "Mars",
+        "4"  : "Avril",
+        "5"  : "Mai",
+        "6"  : "Juin",
+        "7"  : "Juillet",
+        "8"  : "Août",
+        "9"  : "Septembre",
+        "10" : "Octobre",
+        "11" : "Novembre",
+        "12" : "Dé"
+    },
+    "date":{
+      "dateFormat":"d"+"/"+"m"+"/"+"y"
+    }
+}

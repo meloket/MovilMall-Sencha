@@ -1,0 +1,4 @@
+#Wed Aug 22 20:19:25 EDT 2018
+base.0=F\:\\My_Working\\NodeFix\\MovilMall\\public\\Movil.MobileApp\\cordova\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=F\:\\My_Working\\NodeFix\\MovilMall\\public\\Movil.MobileApp\\cordova\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

@@ -1,0 +1,191 @@
+/* media queries - responsive features
+================================================== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* sections specs  ----------- */
+.features .features-wrapper { margin-top:30px }
+section#spot-1, section#spot-3 { height:auto }
+section.screenshots figure { height:220px;width:220px }
+
+/* slider  ----------- */
+.slider-wrapper { background-size:566px;height:404px !important }
+#slider-tablet { height:404px }
+#slider-tablet .carousel-inner { left:70px;top:24px;width:423px }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* typography  ----------- */
+h1 { font-size:42px;line-height:1.2857em }
+h2 { font-size:26px !important;line-height:1.3846em }
+h3 { font-size:18px;line-height:1em }
+h4 { font-size:16px;line-height:1.1250em }
+h5 { font-size:14px;line-height:1.2857em }
+h6 { font-size:12px;line-height:1.5em }
+
+p { font-size:14px;line-height:1.2857em }
+
+.btn, .btn:hover { margin-top:30px;padding:12px 15px }
+
+/* sections specs  ----------- */
+section.wrapper section { padding:30px 0 }
+
+.features .features-wrapper { margin-top:0 }
+.features figure { margin-top:30px }
+
+section.wrapper section.spotlight { padding-top:60px }
+section.spotlight h1, section.spotlight h2, section.spotlight h3, section.spotlight h4, section.spotlight h5, section.spotlight h6 { margin-bottom:15px }
+section.wrapper section.spotlight .spotlight-desc { padding-top:15px }
+section#spot-1, section#spot-3 { height:auto }
+section#spot-4 { padding-bottom:60px }
+ul.download-icon { margin:30px 0 0 0 }
+ul.download-icon a { font-size:20px;height:40px;padding-top:9px;width:40px }
+
+section.highlight h1, section.highlight h2, section.highlight h3, section.highlight h4, section.highlight h5, section.highlight h6 { font-size:22px !important;line-height:1.6364em }
+.highlight p { font-size:15px;line-height:1.2em;margin:15px 0 0 0 }
+section.wrapper section.single { padding:60px 0 }
+
+section.wrapper section.service-row { margin:0 0 30px 0 }
+section.wrapper section.service-row:last-child { margin-bottom:0}
+
+section.screenshots figure { height:176px;margin:0 15px 15px 0;width:176px }
+
+fieldset.contact-form label { margin:5px 0 }
+
+/* slider  ----------- */
+.slider-wrapper { background-size:438px;height:313px !important }
+#slider-tablet { height:323px }
+#slider-tablet .carousel-inner { left:54px;top:19px;width:327px }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+
+/* typography  ----------- */
+h1 { font-size:42px;line-height:1.2857em }
+h2 { font-size:26px !important;line-height:1.3846em }
+h3 { font-size:18px;line-height:1em }
+h4 { font-size:16px;line-height:1.1250em }
+h5 { font-size:14px;line-height:1.2857em }
+h6 { font-size:12px;line-height:1.5em }
+
+p,  { font-size:14px;line-height:1.2857em }
+
+.btn, .btn:hover { margin-top:30px;padding:12px 15px }
+
+/* sections specs  ----------- */
+section.wrapper section { padding:30px 0 }
+section.wrapper section.spotlight { padding-top:60px }
+
+section.highlight h1, section.highlight h2, section.highlight h3, section.highlight h4, section.highlight h5, section.highlight h6 { font-size:22px !important;line-height:1.6364em }
+.highlight p { font-size:15px;line-height:1.2em;margin:15px 0 0 0 }
+section#spot-4 { padding-bottom:60px }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+/* homepage
+================================================== */
+header { padding:45px 0 }
+.intro h1.intro-brand { font-size:42px;margin-bottom:30px }
+section.intro h1, section.intro h2, section.intro h3, section.intro h4, section.intro h5, section.intro h6 { 
+font-size:28px;
+line-height:1.2857em;
+margin-bottom:15px;
+}
+
+ul.nav { background:rgba(255, 255, 255, .9);border-bottom:1px solid rgba(0, 0, 0, .1);margin-top:-1px;text-align:center }
+ul.nav li { margin:20px 0 }
+ul.nav li a { margin:0 auto;width:130px
+}		
+
+ul.nav li a:hover, ul.nav li a:focus, ul.nav li a.active { background:none }		
+
+section.intro p {
+font-size:18px;
+line-height:1em
+}
+
+.heading span.bottom-line {
+margin-left:-135px;
+width:270px
+}
+
+.heading { margin-left:15px;margin-right:15px }
+.features .features-wrapper { text-align:center;margin-top:0 }
+.features > figure { margin:75px 0 0 0 !important }
+section.wrapper section.spotlight { padding-top:60px }
+section.wrapper section.spotlight .spotlight-desc { text-align:center;padding-top:15px }
+section#spot-1 figure { margin-top:60px }
+.spotlight span.top-line { left:50%;margin-left:-45px }
+section#spot-1, section#spot-3 { height:auto }
+
+section.highlight .highlight-slogan { margin:0 15px}
+
+section.screenshots .screenshots-row { margin:0 15px }
+section.screenshots figure { height:47%;margin:0 2% 2% 0;width:48% }
+section.screenshots .screenshots-row:last-child figure { margin-bottom:2% }
+
+section.wrapper section.service-row div { margin-bottom:60px }
+section.wrapper section.service-row div:last-child { margin-bottom:0 }
+
+section.wrapper section.service-row figure {
+height:65px;
+margin:0 0 60px 0;
+padding:20px 0 0;
+width:65px;
+}
+
+section.service div { margin-bottom:45px }
+section.service div:last-child { margin-bottom:0 }
+
+.fluid-width-video-wrapper { margin-top:60px }
+
+section.highlight .small-highlight { padding: 30px 0 }
+section.wrapper section.single { padding:60px 0 }
+fieldset.contact-form { margin:0 15px }
+fieldset.contact-form label[for=name], fieldset.contact-form label[for=message] { margin-left:-15px !important }
+
+footer { padding:30px 0 20px 0 }
+footer h1.logo { font-size:32px }
+footer p { margin:10px 0 }
+
+/* slider  ----------- */
+.slider-wrapper { background:none;border:1px solid rgba(0, 0, 0, 0.1);height:100% !important;margin:0 15px 60px 15px;padding:5%;width:95% }
+#slider-tablet { height:auto !important }
+#slider-tablet .carousel-inner { left:0;top:0;width:100% }
+#slider-tablet .carousel-indicators { bottom:-20% }
+}
+
+@media (max-width: 568px) and (orientation:portrait) {
+
+/* slider  ----------- */
+.slider-wrapper { width:90% }
+#slider-tablet .carousel-indicators { bottom:-30% }
+#slider-tablet .carousel-caption p { font-size:12px }
+
+section.highlight h1, section.highlight h2, section.highlight h3, section.highlight h4, section.highlight h5, section.highlight h6 { font-size:18px;line-height:1em }
+
+section.wrapper section.single { padding:45px 0 }
+
+}
+
+/* prettyPhoto styling for small screens */
+@media (max-width: 568px) {
+.pp_pic_holder.pp_default { width: 100%!important; margin-top:-100px !important;left: 0!important; overflow: hidden; }
+div.pp_default .pp_content_container .pp_left { padding-left: 0!important; }
+div.pp_default .pp_content_container .pp_right { padding-right: 0!important; }
+.pp_content { width: 100%!important; height: auto!important; }
+.pp_fade { width: 100%!important; height: 100%!important; }
+a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom { display: none!important; }
+#pp_full_res img { width: 100%!important; height: auto!important; }
+.pp_details { width: 100%!important; padding-left: 3%; padding-right: 4%; padding-top: 10px; padding-bottom: 10px; background-color: #fff; margin-top: -2px!important; }
+a.pp_close { right: 10px!important; top: 10px!important; }
+
+}

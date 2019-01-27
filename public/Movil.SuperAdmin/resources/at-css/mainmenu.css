@@ -1,0 +1,27 @@
+﻿/*css to apply styling on labels which are used as main menu options*/
+/*.mainmenulabel {
+   font-size: 15px;
+   margin-right: 15px;
+}
+.mainmenulabel:hover {
+   color:  #157FCC;
+}*/
+.menu-search-button {
+   height: 25px;
+    border-color: #ffffff !important;
+   background-color: #ffffff !important;
+   
+}
+
+/*hover cls for search(menu form) button*/
+.menu-search-button .x-btn-inner:hover {
+   font-weight: bold !important;
+}
+
+.menu-search-button .x-btn-inner{
+   color: #ffffff!important;
+   font-size: 14px!important;
+}
+ .menu-masters-button {
+    background-color: #0000ff !important;
+ }

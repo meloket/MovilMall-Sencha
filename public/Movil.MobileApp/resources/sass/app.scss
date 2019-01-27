@@ -1,0 +1,87 @@
+//INCLUDE ALL SASS VARIABLE OVERRIDES HERE
+
+$base-color: #e86740 !default; //orange                  //set base color for whole app.
+$base-gradient: if(true, flat, null) !default;           //setting base gradient to give flat look.
+$font-family: 'Roboto', sans-serif;                      //sets roboto font family globally for app
+$tabs-light: $base-color !default;                       //removing the mask that appears on toolbar non active items and setting its value to base color only.
+$list-active-color:#ffffff !default;					 //setting selected item color in list to white as we dont want any highlighting in list selection.
+
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+
+//the below two files if included will show effect only if you include path to resources/css/app.css in your app.json file.
+//if you dont specify that css in path below two lines can be omitted (i.e if you are directly linking cupertino.css or any 
+//other theme file's css)
+
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
+//roboto font file
+@include font-face('Roboto', font-files('../../Movil.MobileApp/touch/resources/themes/fonts/roboto/Roboto-Light.ttf'), false, normal, normal);
+
+//overwriting font-size for the text which is displayed in title of every screen
+.x-title{
+   font-weight:normal;
+   font-size:1.056em;
+}
+//remove botttom border in top docked toolbar
+.x-toolbar.x-docked-top {
+border-bottom: none;
+}
+
+//increased the width of the bottom docked toolbar 
+/*.x-tabbar.x-docked-bottom {
+height: 3em;
+padding: 0;
+}*/
+
+.x-list-disclosure {
+-webkit-mask-box-image: url('../icons/nw-icons/right-arrow.png');
+background-color:#545454 !important;
+background-image:none !important;
+width: 0.5em !important;
+height: 0.8em!important;
+margin: 0.9em 16px 0 0!important;}
+
+.x-list .x-list-disclosure:before
+{
+   text-align:left !important;   
+}
+
+//sets title in any screen slightly left aligned 
+/*.x-center {
+   right: auto !important;
+}*/
+
+.x-title {   
+   text-shadow: none !important
+}
+
+//color of the checked radio button (blue)
+.x-input-radio:checked + .x-field-mask::after {
+background: #51C4D4 !important;
+}
+
+//toggle switch on color (blue)
+.x-toggle-on {
+   background-color: #51C4D4;
+   background-image: -webkit-linear-gradient(top, #2DA4B4, #36BBCD 10%, #51C4D4 65%, #5FC9D7);
+   background-image: -moz-linear-gradient(top, #2DA4B4, #36BBCD 10%, #51C4D4 65%, #5FC9D7);
+   background-image: -o-linear-gradient(top, #2DA4B4, #36BBCD 10%, #51C4D4 65%, #5FC9D7);
+}
+
+//color of the checked checkbox 
+.x-input-el:checked + .x-field-mask::after{
+color: #6fcddb !important;
+}
+
+// For background color of list
+.x-list-normal .x-list-item.x-item-selected.x-list-item-tpl{
+border-top-color: #d5d3d0;
+background-color: #d5d3d0;
+}

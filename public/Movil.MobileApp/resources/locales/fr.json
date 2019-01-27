@@ -1,0 +1,364 @@
+﻿{
+    "tabs" : {
+        "one"   : {
+            "html"  : "Ceci est le premier onglet",
+            "title" : "Onglet Abord"
+        },
+        "two"   : {
+            "html"  : "Ceci est le deuxième onglet",
+            "title" : "Deuxième Onglet"
+        },
+        "three" : {
+            "html"  : "C'est le troisième onglet",
+            "title" : "Troisième Onglet"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "Premiè re Page"
+        },
+        "extra" : {
+            "title" : "Page Supplémentaire"
+        }
+    },
+    "buttons" : {
+        "save": "Guardar",
+        "cancel":"Cancelar",
+        "coupencode":"Cupón",
+        "locateStore":"Mapa",
+        "post":"Publicar",
+        "favourite":"favorito",
+        "viewOffers":"Ver Ofertas",
+        "markonCal":"Marcar en mí calendario",
+        "like":"Me gusta",
+        "share":"comparte",
+         "ScanQRcode":"Prende el Scanner",
+         "continue": "Continuar"
+    },
+    "misc" : {
+        "bottomTitle"   : "barre d'outils en bas",
+        "loadLocaleMsg" : "Chargement en cours ...",
+        "back"          : "Retour"
+    },
+    "fields" : {
+        "name" : "Nom",
+        "dateLabel" : "la date",
+        "datePlaceholder" : "choisir la date"
+    },
+
+    "fieldsets" : {
+        "title" : "Ensemble de champs",
+        "instructions" : "des instructions en français"
+    },
+    "settings":{
+            "profileView":{
+            "title": "Editar"
+            },
+            "MovilMallabout":{
+            "html":"<p class='settingsAbout'>MovilMall es una aplicación Movil que te ayuda a ahorrar en tus tiendas, entretenimiento, y eventos favoritos. A través de tus redes sociales y dándole Me Gusta a tus ofertas favoritas, MovilMall te permite acumular puntos en cada tienda para luego ser cangeados por mercancía. Regístrate hoy y sigue nuestras redes sociales para recibir las mejores ofertas y enterarte de los mejores eventos en todo el país.</p>"
+            },
+            "followUs":{
+            "html":"<div class='main'>" +
+                     "<img class='movilMallTextImage' src='resources/images/movilTex1t.png'></img>" +
+                     "<p class='termsOfService'><span id='privacyLink' style='text-decoration:underline;'>Intimidad</span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span  id='terms&ServiceLink' style='text-decoration:underline;'>Condiciones del servicio</span></p>" +
+                     "<p class='copyrightText'>Todos los derechos reservados © 2018 Movil Mall</p>" +
+                     "<div class='socialIcons'>" +
+                     "<img id='settingsFb' src='resources/icons/social/socialBlue/fb.png'></img>" +
+                     "<img id='settingsGp' src='resources/icons/social/socialBlue/gp.png'></img>" +
+                     "<img id='settingsTwi' src='resources/icons/social/socialBlue/twi.png'></img>" +
+                     "<img id='settingsYt' src='resources/icons/social/socialBlue/yt.png'></img>" +
+                     "<img id='settingsPin' src='resources/icons/social/socialBlue/pin.png'></img>" +
+                     "<img id='settingsIg' src='resources/icons/social/socialBlue/ig.png'></img>" +
+                     "</div>" +
+                     "</div>"
+            },
+
+            "changePass":{
+               "old":{
+               "placeHolder":"Contraseña Antigua"
+                  },
+                    "new":{
+               "placeHolder":"Nueva Contraseña"
+                  },
+                    "confirm":{
+               "placeHolder":"Confirmar Contraseña"
+                  }
+            }
+
+    },
+    "offers":{
+      "profileview":{
+          "ends":{
+                  "html": "<div class='offerExpBadge'>" +
+                  "<p class='expiryText'>Termina</p>" +
+                  "<p class='expiryText' id='validTo'></p>" +
+                  "</div>" +
+                  "<div class='offerBadge'></div>"
+         },
+          "moredetails":{
+                "html": "<div class='offerDetails'>" +
+               "<div class='offerInside'>" +
+               "<p class='offerTagLineTitle' id='tagLine'></p>" +
+                "<div class='offerDetailEllipsisDiv'>" +
+               "<p class='offerDescription' id='finePrint'></p>" +
+                "<p class='offerDetailEllipsis' id='offerDetailEllipsis'></p>" +
+                "</div>" +
+               //View more Details
+               "<p class='viewMoreDetails' id='offDetBut'>Más detalles &raquo;</p>" +
+               "</div>" +
+               "</div>"
+               },
+       "comments":{
+                "html": "<p style='font-size:0.9em;'><b>Comentarios</b></p>"
+               },
+        "viewComments":{
+               "html": "<p class='viewMoreDetails' id='fViewAllCom'>Ver todos los comentarios &raquo;</p>"
+        },
+        "cmtTxtPlaceHolder":{
+               "placeHolder": "Deja un comentario"
+        },
+         "searchPlaceHolder":{
+            "placeHolder": "Escribe aquí..."
+        }
+       } 
+
+    
+    },
+    "settingsOffers":{
+     "profileview":{
+         
+          "moredetails":{
+                "html": "<div class='offerDetails'>" +
+               "<div class='offerInside'>" +
+               "<p class='offerTagLineTitle' id='settingsOfferTagLine'></p>" +
+                "<div class='offerDetailEllipsisDiv'>" +
+               "<p class='offerDescription' id='settingsOfferFinePrint'></p>" +
+                "<p class='offerDetailEllipsis' id='settingsOfferDetailEllipsis'></p>" +
+                "</div>" +
+               //View more Details
+               "<p class='viewMoreDetails' id='settingsOffDetBut'>Más detalles &raquo;</p>" +
+               "</div>" +
+               "</div>"
+               },
+       "comments":{
+                "html": "<p style='font-size:0.9em;'><b>Comentarios</b></p>"
+               },
+        "viewComments":{
+               "html": "<p class='viewMoreDetails' id='settingsViewAllCom'>Ver todos los comentarios &raquo;</p>"
+        }
+       } 
+
+    },
+
+    "places":{
+            "profileview":{
+                  "address":{
+                        "html":  "<div class='placeDetail'>" +
+                                    "<p class='placeDescription' id='placeDescription'><p>" +
+                                    "<div class='placeOpenHours' id= 'placesWh'>" +
+                                    "<p><b>Horario</b></p>" +
+                                    "<p id='fromwh'></p>" +
+                                    "</div>" +
+                                    "<div class='placeAddress'>" +
+                                        "<p><b>Dirección</b></p>" +
+                                    "<p class='insideMallAddress' id='insideMallAdress'></p>" +
+                                    "<p class='locationWithinMall' id='locationWithinMall'></p>" +
+                                    "</div>" +
+                                    "</div>"
+                  }
+            },
+          "offers":{
+               "profileview":{
+                     "ends":{
+                         "html": "<div class='offerExpBadge'>" +
+                                 "<p class='expiryText'>Termina</p>" +
+                                 "<p class='expiryText' id='placesOffersValidTo'></p>" +
+                                 "</div>" +
+                                 "<div class='offerBadge'></div>"
+                     },
+                      "moredetails":{
+                         "html": "<div class='offerDetails'>" +
+                                 "<div class='offerInside'>" +
+                                 "<p class='offerTagLineTitle' id='placesOffersTagLine'></p>" +
+                                  "<div class='offerDetailEllipsisDiv'>" +
+                                 "<p class='offerDescription' id='placesOffersFineprint'></p>" +
+                                  "<p class='offerDetailEllipsis' id='placesOfferDetailEllipsis'></p>" +
+                                 "</div>" +
+                                 "<p class='viewMoreDetails' id='placesofferDetails'>Más detalles &raquo;</p>" +
+                                 "</div>" +
+                                 "</div>"
+                    },
+                     "viewComments":{
+                               "html": "<p class='viewMoreDetails' id='placesOffersViewAllCom'>Ver todos los comentarios &raquo;</p>"
+               },
+                  "socials":{
+                        "html":"<p style='font-size:0.7em; padding: 0.4em 0em 0.4em 0.4em; color:black;'>Visita nuestras redes sociales</p>"
+                  }
+               }
+          }
+    },
+     "stores":{
+         "profileview":{
+               "address":{
+                     "html": "<div class='placeDetail'>" +
+                            "<p class='placeDescription' id='storeDescription'><p>" +
+                            "<div class='placeOpenHours'>" +
+                            "<p><b>Horario</b></p>" +
+                            "<p id='storeFromwh'></p>"+
+                            "</div>" +
+                            "<div class='placeAddress'>"+
+                            "<p><b>Dirección</b></p>" +
+                            "<p class='insideMallAddress' id='storeInsideMallAdress'></p>" +
+                            "<p class='locationWithinMall' id='storeLocationWithinMall'></p>" +
+                            "</div>" +
+                            "</div>"
+               }
+         },
+          "offers":{
+               "profileview":{
+                     "ends":{
+                         "html": "<div class='offerExpBadge'>" +
+                                 "<p class='expiryText'>Termina</p>" +
+                                 "<p class='expiryText' id='placesStoresOffersvalidTo'></p>" +
+                                 "</div>" +
+                                 "<div class='offerBadge'></div>"
+                     },
+                      "moredetails":{
+                         "html": "<div class='offerDetails'>" +
+                                 "<div class='offerInside'>" +
+                                 "<p class='offerTagLineTitle' id='placesStoresOffersTagLine'></p>" +
+                                  "<div class='offerDetailEllipsisDiv'>" +
+                                 "<p class='offerDescription' id='placesStoreOffersFineprint'></p>" +
+                                 "<p class='offerDetailEllipsis' id='placesStoresOfferDetailEllipsis'></p>" +
+                                 "</div>" +
+                                 "<p class='viewMoreDetails' id='placesStoresOffesrViewDetails'>Más detalles &raquo;</p>" +
+                                 "</div>" +
+                                 "</div>"
+                    },
+                    "viewComments":{
+                        "html": "<p class='viewMoreDetails' id='placesStoresOffersViewAllcmt'>Ver todos los comentarios &raquo;</p>"
+                    }
+               }
+          }
+    },
+
+    "events":{
+         "profileview":{
+               "details":{
+                     "html":"<span style='font-size: 0.7em; line-height: 1.5em;'><b>Detalles</b></span>"
+               },
+               "attending":{
+                     "label":"Asistir a este Evento?"
+               },
+               "attendees":{
+                     "html": "<div class='eventTitleBlock'>" +
+                              "<div class='eventHeaderShareImg'>" +
+                              "<img id='eveShareImg' src='resources/icons/nw-icons/share.png'></img>" +
+                              "</div>" +
+                              "<div class='eventHeaderLikeDiv'>" +
+                              "<div class='eventHeaderLikeimg' id='eveLikeIcon'></div>" +
+                              "<p class='eventProfileLikeCount' id='eventLikeCount'>0</p>" +
+                              "</div>" +
+                              "<p class='eventHeading' id='eventTitle'></p>" +
+                              "<p class='eventProfileAttendance'>Assietiendo :&nbsp;</p>" + "<p class='eventProfileAttendance' id = 'eventProfileAttendees' ></p>" +
+                              "</div>"
+               },
+               "viewAllCmt":{
+                     "html":"<p class='viewMoreDetails' id='eViewAllCom'>Ver todos los comentarios &raquo;</p>"
+               }
+         },
+
+         "tabPanel":{
+               "events":{
+                     "title":"asfcs"
+               }
+         }
+    },
+
+    "pullRefresh":{
+         "Text":{
+               "pullText": "spanish"
+         }
+    },
+     "parking":{
+         "done":{
+            "html":"Listo"
+         },
+          "photo":{
+            "html":"Toma una foto"
+         },
+         "main":{
+            "html":"<div class='parkingContainer'>" +
+               "" +
+               "<p class='parkingFont'>Guía de Parqueo</p>" +
+               "<p class='parkingMethod'>Escoja un Método</p>" +
+               "</div>"
+         },
+         "mapViewCancel":{
+               "html":"Cancelar"
+         },
+         "mapViewSave":{
+               "html":"Guardar"
+         },
+         "mapViewLocate":{
+               "html":"Localizarme"
+         },
+         "audioNuevo":{
+               "html":"Haz click aquí para grabar"
+         },
+           "audioStopRec":{
+               "html":"Detener grabación"
+         },
+           "audioStop":{
+               "html":"Deténgase"
+         },
+
+           "blocks":{
+                  "html":"<div class='parkingLocator'>" +
+                  "<img class='locatorImage' id='pinMapDataView' src='./resources/icons/Parking/parkingLocator.png'>" +
+                  "<p class='locatorFont'>Pin en el Mapa</p>" +
+                  "</div>" +
+               
+                  "<div class='parkingLocator'>" +
+                  "<img class='graberImage' id='takePhotoDataview' src='./resources/icons/Parking/parkingCamera.png'>" +
+                  "<p class='locatorFont' id='photoText'>Tomar una Foto</p>" +
+                  "</div>" +
+
+                  "<div class='parkingLocator'>" +
+                  "<img class='locatorImage' id='takeAudio' src='./resources/icons/Parking/parkingMic.png'>" +
+                  "<p class='locatorFont'>Grabar</p>" +
+                  "</div>" +
+
+                  "<div class='parkingLocator'>" +
+                  "<img class='graberImage' id='makeNoteDataView' src='./resources/icons/Parking/parkingPen.png'>" +
+                  "<p class='locatorFont' id='noteText'>Escribir una Nota</p>" +
+                  "</div>" 
+         }
+   },
+
+   "Offers":{
+      "emptyText":"<img style='width: 300px;height: 236px; display:block; margin:4em auto 0 auto;' src='./resources/images/coffee1.png' >"
+   },
+    
+   "Places":{
+      "emptyText":"<img style='width: 300px;height: 236px; display:block; margin:4em auto 0 auto;' src='./resources/images/emptyLocations.png'>"
+
+   },
+   "Events":{
+      "emptyText":"<img style='width: 300px;height: 236px; display:block; margin:4em auto 0 auto;' src='./resources/images/emptyEvent.png' >"
+    
+
+   },
+    "pullRefresh":{
+         "pullText":"Deslice esta pantalla hacia abajo para refrescar las ofertas."
+   },
+   "alerts" : {
+    "one"   : {
+      "title"  : "This is my first alert",
+      "message" : "The alert's message"
+    }
+  }
+
+    
+    
+}

@@ -1,0 +1,554 @@
+﻿{
+    "tabs" : {
+        "one"   : {
+            "html"  : "Ceci est le premier onglet",
+            "title" : "Onglet Abord"
+        },
+        "two"   : {
+            "html"  : "Ceci est le deuxième onglet",
+            "title" : "Deuxième Onglet"
+        },
+        "three" : {
+            "html"  : "C'est le troisième onglet",
+            "title" : "Troisième Onglet"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "Premiè re Page"
+        },
+        "extra" : {
+            "title" : "Page Supplémentaire"
+        }
+    },
+    "buttons" : {
+    "profile":"Perfil",
+        "locations" : "Localidades",
+        "offers"   : "Ofertas",
+        "movies"   : "Películas",
+        "events": "Eventos",
+        "analytics":"Estadísticas",
+        "new":"Agregar",
+        "search":"Buscar",
+        "back": "Regresar",
+        "save": "Guardar",
+        "cancel":"Cancelar",
+        "upload": "Agregar",
+        "next": "Siguiente",
+        "finish":"Finalizar",
+        "remove": "Remover",
+        "exportToexcel": "Exportar Estadísticas",
+        "buttonText":"Seleccionar el Archivo"
+    },
+    "misc" : {
+        "bottomTitle"   : "barre d'outils en bas",
+        "loadLocaleMsg" : "Chargement en cours ...",
+        "back"          : "Retour"
+    },
+    "fields" : {
+        "name" : "Nom",
+        "dateLabel" : "la date",
+        "datePlaceholder" : "choisir la date"
+    },
+    "fieldsets" : {
+        "title" : "Ensemble de champs",
+        "instructions" : "des instructions en français"
+    },
+      
+    "grid" : {
+               "locations":{
+                     "title" : "Localidades",
+
+                     "srno":{
+                     "text":"No."
+                     },
+                     "locations":{
+                     "text":"Sitio"
+                     },
+                     "city":{
+                     "text":"Ciudad"
+                     },
+                     "state":{
+                     "text":"Provincia"
+                     },
+                     "inmall":{
+                     "text":"Dentro de un Mall?"
+                     },
+                     "action":{
+                     "text":"Acciones"
+                     }
+                           },  
+
+      "offers":{
+               "title" : "Ofertas",
+
+                     "srno":{
+                     "text":"No."
+                     },
+                     "offersDetail":{
+                     "text":"Lista de Ofertas"
+                     },
+                     "action":{
+                     "text":"Acciones"
+                     },
+                     "city":{
+                     "text":"Ciudad"
+                     },
+                     "click":{
+                     "text":"Clic"
+                     },
+                     "like":{
+                     "text":"Gustos"
+                     }
+                     },
+
+      "offerslocgrid":{
+              
+                     "srno":{
+                     "text":"No."
+                     },
+                     "location":{
+                     "text":"Localidades"
+                     },
+                     "city":{
+                     "text":"Ciudad"
+                     },
+                     "state":{
+                     "text":"Provincia"
+                     },
+                      "inmall":{
+                     "text":"Dentro de un Mall?"
+                     }
+                  },
+
+       "moviesgrid":{
+               "title" : "Películas",
+                     "srno":{
+                     "text":"No."
+                     },
+                     "name":{
+                     "text":"Nombre"
+                     },
+                     "rating":{
+                     "text":"Clasificación"
+                     },
+                     "runtime":{
+                     "text":"Duración en min"
+                     },
+                      "action":{
+                     "text":"Acciones"
+                     }
+                     },
+      
+      "movieslocgrid":{
+               "title" : "Localidades",
+                     "location":{
+                     "text":"Localidades"
+                     },
+                     "city":{
+                     "text":"Ciudad"
+                     },
+                     "state":{
+                     "text":"Provincia"
+                     },
+                     "favourited":{
+                     "text":"Me Gusta"
+                     }
+                  },
+
+      "eventsgrid":{
+               "title" : "Eventos",
+                     "srno":{
+                     "text":"No."
+                     },
+                     "eventname":{
+                     "text":"Lista de Eventos"
+                     },
+                     "action":{
+                     "text":"Acciones"
+                     },
+                      "date":{
+                     "text":"Fecha del Evento"
+                     },
+                     "attendees":{
+                     "text":"Van a ir"
+                     }
+                  },
+   "analyticsfavgrid":{
+               "title" : "Usuarios que le dieron “Me Gusta”",
+                     "name":{
+                     "text":"Nombre"
+                     },
+                     "email":{
+                     "text":"Email"
+                     },
+                     "city":{
+                     "text":"Ciudad"
+                     },
+                     "state":{
+                     "text":"Provincia"
+                     },
+                     "DOB":{
+                     "text":"Cumpleaños"
+                     },
+                     "points":{
+                     "text":"Puntos"
+                     }
+                  },
+
+      "analyticsfavoffergrid":{
+               "title" : "Los usuarios que le han dado 'Me Gusta' a la oferta"
+               },
+      "analyticsfaveventgrid":{
+               "title" : "Los usuarios que le han dado 'Me Gusta' a la Evento"
+               }
+
+                     
+                     
+               },
+
+
+   "form" : {
+      "locations":{
+                     "title" : "Detalles",
+
+                     "location":{
+                     "fieldLabel":"Nombre del Lugar"
+                     },
+                     "insideMall":{
+                      "boxLabel":"Dentro de un Mall?"
+                     },
+                     "address":{
+                     "fieldLabel":"Dirección"
+                     },
+                     "state":{
+                     "fieldLabel":"Provincia"
+                     },
+                     "city":{
+                     "fieldLabel":"Ciudad"
+                     },
+                     "mall":{
+                     "fieldLabel":"Mall"
+                     },
+                     "locWithinMall":{
+                     "fieldLabel":"Piso"
+                     },
+                     "postalCode":{
+                     "fieldLabel":"Código postal",
+                     "emptyText": "Optional"
+                     },
+                    
+                     "workingHours":{
+                     "fieldLabel":"Horas Hábiles"
+                     },
+
+                     "workingHoursFrom":{
+                     "fieldLabel":"Desde"
+                     },
+
+                      "workingHoursTo":{
+                     "fieldLabel":"Hasta"
+                     }
+                           },
+
+       "offersinfo":{
+                     "title" : "Offers Info",
+                     "tagline":{
+                     "fieldLabel":"Nombre de la Oferta"
+                     },
+                     "status":{
+                      "text":"Estado"
+                     },
+                     "offersimage":{
+                      "html":"Imagen"
+                     },
+                     "couponcode":{
+                      "fieldLabel":"Código del Cupón"
+                     },
+                      "holdoffer":{
+                      "boxLabel":"No publicar la oferta todavía?"
+                     },
+                     "validfrom":{
+                      "fieldLabel":"Válida desde",
+                       "emptyText":"DD/MM/AA"
+                     },
+                     "validto":{
+                      "fieldLabel":"Válida hasta",
+                      "emptyText":"DD/MM/AA"
+                     }
+               },
+       "offersdescription":{
+                    
+                     "fineprint":{
+                     "fieldLabel":"Reglas del Cupón"
+                     },
+                     "tags":{
+                      "fieldLabel":"Palabras que ayuden a los usuarios a encontrar su oferta"
+                     }
+                     },
+       "profileidentity":{
+                    
+                     "name":{
+                     "fieldLabel":"Nombre"
+                     },
+                     "contactperson":{
+                      "fieldLabel":"Persona de Contacto"
+                     },
+                      "description":{
+                      "fieldLabel":"Descripción"
+                     },
+                      "email":{
+                      "fieldLabel":"Email"
+                     },
+                      "contactno":{
+                      "fieldLabel":"Teléfono"
+                     },
+                     "website":{
+                      "fieldLabel":"Página Web"
+                     }
+                    
+                     },
+
+         "moviesinfo":{
+                    
+                     "name":{
+                     "fieldLabel":" Película Nombre"
+                     },
+                     "releasedate":{
+                      "fieldLabel":"Fecha de lanzamiento"
+                     },
+                      "runtime":{
+                      "fieldLabel":"Duración en min"
+                     },
+                      "genre":{
+                      "fieldLabel":"Género"
+                     },
+                      "rating":{
+                      "fieldLabel":"Clasificación"
+                     },
+                       "trailerlink":{
+                      "fieldLabel":"Enlace remolque"
+                     },
+                       "director":{
+                      "fieldLabel":"Director"
+                     },
+                       "cast":{
+                      "fieldLabel":"Emitir"
+                     },
+                       "synopsis":{
+                      "fieldLabel":"Sinopsis"
+                     }
+                     },
+
+       "eventsinfo":{
+                    
+                     "name":{
+                     "fieldLabel":"Nombre del Evento"
+                     },
+                     "date":{
+                      "fieldLabel":"Fecha del Evento",
+                       "emptyText":"DD/MM/AA"
+                     },
+                      "time":{
+                     "fieldLabel":"Horario del Evento"
+                     },
+                     "eventloc":{
+                      "fieldLabel":"Lugar del Evento"
+                     },
+                      "eventdetail":{
+                      "fieldLabel":"Detalles"
+                     }
+               },
+    "moviesphoto":{
+                     "title": "películas de Imágenes"
+    },
+     "eventsphoto":{
+                     "title": "Imágenes del Evento"
+    },
+    "profilephotoinfo":{
+                     "logo":{
+                     "html": "Agregue la foto de su negocio o marca."
+                     },
+                     "note":{
+                     "text":"*Después de cargar o eliminar la foto, haz clic en el botón Guardar"
+                     }
+    },
+
+     
+      "moviesshowtimes":{
+                     "title": "Añadir la Ubicación",
+
+                      "location":{
+                      "fieldLabel":"Lugar del Película"
+                     },
+                      "date":{
+                      "fieldLabel":"Lugar del Evento",
+                       "emptyText":"DD/MM/AA"
+                     },
+                      "showtime":{
+                      "fieldLabel":"Lugar del Evento"
+                     }
+
+    },
+    "uploadform":{
+    "fieldLabel":"Localizazación del Archivo"
+    }
+
+               },
+"tabpanel":{
+      "analyticsloc":{
+      "title": "Localidades"
+      },
+      "analyticsoffer":{
+      "title": "Oferta"
+      },
+      "analyticsevents":{
+      "title": "Evento"
+      },
+       "moviestab1title":{
+               "title" : "Información"
+                     },
+       "moviestab2title":{
+               "title" : "Localidades/Horarios"
+             
+                  },
+        "eventstab1title":{
+               "title" : "Información"
+                     },
+        "eventstab2title":{
+               "title" : "Redes Sociales"
+                     }
+      },
+ "menu" : {
+      "logout":{
+      "text":"Salir",
+      },
+      "changepass":{
+      "text":"Cambiar Contraseña",
+      }
+      },
+
+    "months" : {
+        "1"  : "Janvier",
+        "2"  : "Février",
+        "3"  : "Mars",
+        "4"  : "Avril",
+        "5"  : "Mai",
+        "6"  : "Juin",
+        "7"  : "Juillet",
+        "8"  : "Août",
+        "9"  : "Septembre",
+        "10" : "Octobre",
+        "11" : "Novembre",
+        "12" : "Dé"
+    },
+    "date":{
+      "dateFormat":"d"+"/"+"m"+"/"+"y"
+    },
+
+    "maintxt":{
+    "text":"Hola"
+    },
+
+    "breadcrumb":{
+    "profile":{
+      "html":"<div id='crumbs2' class='bf-example1'><ul class='instbreadcrumb'>" +
+     "<li id='Identity_tab'><a href='#' id='tab1'>Identidad</a>&#8250;</li>" +
+         "<li id='BusinessType_tab'><a href='#' id='tab2'>Tipo de Negocio</a>&#8250;</li>" +
+         "<li id='ProductCategories_tab'><a href='#' id='tab3'>Categoría de Productos</a>&#8250;</li>" +
+        "<li id='Photograph_tab'><a href='#' id='tab4'>Imágenes</a>&#8250;</li>" +
+            "<li id='social_tab'><a href='#' id='tab5'>Redes Sociales</a></li>" + "</ul></div>"
+
+    },
+     "offer":{
+     "html":
+  "<div id='crumbs2' class='bf-example1'><ul class='instbreadcrumb'>" +
+     "<li id='offersinfo_tab'><a href='#' id='tab1'>Información</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='description_tab'><a href='#' id='tab2'>Descripción</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='categories_tab'><a href='#' id='tab3'>Categorías</a>&nbsp;&nbsp;&#8250;</li>" +
+         "<li id='locations_tab'><a href='#' id='tab4'>Localidades</a>&nbsp;&nbsp;</li>" + "</ul></div>"
+         }
+         },
+"window":{
+"profile":{
+         "uploadlogo":{
+               "title":"Cargar el Logotipo"
+         },
+          "uploadimage":{
+               "title":"Subir Imágenes"
+         }
+         },
+         "offer":{
+         "upload":{
+               "title":"Subir Fotos para las Oferta"
+         }
+         },
+"events":{
+      "upload":{
+            "title":"Foto del Evento"
+            }
+            }
+        },
+
+   "title":{
+            "titleText": "hola"
+   },
+    
+    "commenttitle": {
+            "offers": {
+                  "title": "Comentarios"
+            },
+            "events": {
+                  "title": "Comentarios"
+            }
+    },
+     "save":{
+                     "tooltip": "Guardar"
+                     },
+   "add":{
+         "offer": {
+         "tooltip":"Agregar Ofertas"
+         }, 
+          "location":{
+          "tooltip":"Agregar Localidades"
+         },
+         "movieshowtime":{
+          "tooltip":"Agregar Horarios"
+         },
+         "events":{
+          "tooltip":"Agregar Eventos"
+         }
+       
+   },
+    "back":{
+     "tooltip":"Regresar"
+   },
+   "cancel":{
+   "tooltip":"Cancelar"
+   },
+   "search":{
+     "tooltip":"Buscar"
+   },
+     "edit":{
+     "tooltip":"Editar"
+   },
+    "delete":{
+     "tooltip":"Borrar"
+   },
+
+   "changepwd":{
+         "title": "Cambiar la Contraseña",
+
+         "old":{
+            "fieldLabel":"Contraseña Antigua"
+         },
+         "new":{
+           "fieldLabel":"Nueva Contraseña"
+         },
+         "confirm":{
+          "fieldLabel":"Confirmar Contraseña"
+         }
+   }
+
+
+}

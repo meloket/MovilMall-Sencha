@@ -1,0 +1,89 @@
+﻿{
+    "tabs" : {
+        "one"   : {
+            "html"  : "This is the first tab",
+            "title" : "First Tab"
+        },
+        "two"   : {
+            "html"  : "This is the second tab",
+            "title" : "Second Tab"
+        },
+        "three" : {
+            "html"  : "This is the third tab",
+            "title" : "Third Tab"
+        }
+    },
+    "pages" : {
+        "one" : {
+            "title" : "First Page"
+        },
+        "extra" : {
+            "title" : "Extra Page"
+        }
+    },
+    "buttons" : {
+
+        "profile":"Profile",
+        "locations" : "Locations",
+        "offers"   : "Offers",
+        "movies"   : "Movies",
+        "events": "Events",
+        "analytics":"Analytics",
+        "new":"New",
+        "search":"Search"
+    },
+    "misc" : {
+        "bottomTitle"   : "Bottom Toolbar",
+        "loadLocaleMsg" : "Loading...",
+        "back"          : "Back"
+    },
+    "fields" : {
+        "name" : "Name",
+        "dateLabel" : "Date",
+        "datePlaceholder" : "Choose Date"
+    }, 
+    "fieldsets" : {
+        "title" : "Fieldset Title",
+        "instructions" : "fieldset instructions"
+    },
+     "grid" : {
+               "locations":{
+                     "title" : "Locations",
+                     "srno":{
+                     "text":"Sr.No"
+                     },
+                     "locations":{
+                     "text":"Location"
+                     },
+                     "city":{
+                     "text":"City"
+                     },
+                     "state":{
+                     "text":"State"
+                     },
+                     "inmall":{
+                     "text":"In Mall?"
+                     },
+                     "action":{
+                     "text":"Action"
+                     }
+                           }  
+               },
+    "months" : {
+        "1"  : "January",
+        "2"  : "February",
+        "3"  : "March",
+        "4"  : "April",
+        "5"  : "May",
+        "6"  : "June",
+        "7"  : "July",
+        "8"  : "August",
+        "9"  : "September",
+        "10" : "October",
+        "11" : "November",
+        "12" : "December"
+    },
+    "date":{
+      "dateFormat":"m"+"/"+"d"+"/"+"y"
+    }
+}

@@ -1,0 +1,1073 @@
+﻿.contactNo { font-size: 0.8em; }
+
+.offersDataview .x-list-item {
+   width: 47.5%;
+   padding: 0px 0px 0px 0px;
+   background-color: white;
+   text-align: center;
+   margin-top: 5px;
+   margin-left: 5px;
+   padding: 6px;
+   -webkit-box-shadow: 4px 4px 8px -4px #000000;
+   -moz-box-shadow: 4px 4px 8px -4px #000000;
+   -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+   box-shadow: 4px 4px 8px -4px #000000;
+   box-shadow: 4px 4px 8px -4px hsla(0, 0%, 0%, 0.75);
+}
+
+.offersDataview .x-list-item.x-list-item-tpl .x-innerhtml { padding: 0px 0px 0px 0px !important; }
+
+.offersDataview .x-list-item.x-item-selected.x-list-item-tpl {
+   border-top-color: #d5d3d0;
+   background-color: #ffffff;
+}
+/* padding: 5px; */
+
+/*.dataview-horizontal, .dataview-inline { background-color: #d0d0d0; }*/
+
+.offersDataview .name { width: 100%; }
+
+.offersDataview .img {
+   width: 100%;
+   height: 6.278em;
+   /*padding: 0 0.2em 0 0.2em;*/
+   border: 1px #ccc;
+}
+
+.offersDataview .offerTitle {
+   font-size: 0.7em;
+   padding: 0.5em 0 0.4em 0;
+   color: #666;
+}
+
+.offerTagLineBlurDiv {
+   width: 100%;
+   height: 2em;
+   font-size: 0.6em;
+   color: white;
+   line-height: 1.8em;
+   background-color: #c0c0c0;
+   /*background-image: url(../images/blur.png);
+   -moz-background-size: 100% 100%;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;*/
+   margin-top: -5px;
+}
+
+.offersDataview .offerExpiry {
+   font-size: 0.6em;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   color: #666;
+}
+
+.offersDataview .main {
+   height: 12.5em;
+   position: relative;
+}
+
+
+.offersDataview .offerBottomBar {
+   background-color: #4BC1D2;
+   height: 1.5em;
+   width: 100%;
+   position: absolute;
+   bottom: 0px;
+   /*left: 50%;
+   margin-left: -48%;*/
+   box-shadow: 0 4px 2px -2px #ccc;
+}
+
+.offerBottomBar img {
+   height: 0.8em;
+   width: 0.8em;
+   float: left;
+   margin: 0.4em 0.2em 0.4em 0.6em;
+}
+
+.offerComments, .offerLikes {
+   color: #fff;
+   float: left;
+   font-size: 0.6em;
+   margin-top: 0.6em;
+}
+
+.dataview-horizontal .movieimg, .dataview-inline .movieimg {
+   width: 96%;
+   height: 30%;
+   margin: 6px;
+}
+
+/*.dataview-horizontal .x-dataview-item div,  .x-dataview-item div {
+   color: black;
+   text-align: center;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}*/
+
+.profileImg {
+   /*width: 100%;
+   height: 100%;*/
+   -moz-background-size: 95% !important;
+   background-size: 95% !important;
+   border: 1px solid #595B5F;
+   -webkit-box-shadow: 0px 5px 10px -6px black;
+   -moz-box-shadow: 0px 5px 10px -6px black;
+   box-shadow: 0px 5px 10px -6px black;
+   /*padding: 10px 10px 10px 10px;
+   margin: 5px;*/
+   background-color: white;
+}
+
+.x-carousel-item > * { /*padding: 20px 20px 20px 20px;
+   margin: 20px;*/ }
+
+.carContainer { margin: 5px; }
+
+.profLabButt {
+   border-bottom: 1px solid black;
+   margin: 16px;
+   margin-top: -5px;
+   padding-bottom: 5px;
+}
+
+/*html of image tag align right of image */
+
+.x-img.x-img-image { text-align: right !important; }
+
+.profHeading {
+   text-align: center;
+   margin-top: 15px;
+   border-bottom: 1px solid black;
+   margin-bottom: 15px;
+}
+
+.labelCls { border: none !important; }
+
+.labelCls .x-button-label { text-align: left; }
+
+.address {
+   margin: 15px;
+   height: 100px;
+}
+
+.movies {
+   margin-top: 5px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.userProfile {
+   margin-top: 10%;
+   margin-left: 30%;
+}
+
+.userProfile font { margin-top: 50px !important; }
+
+.postButton { border-radius: 0px !important; }
+
+/*******************
+ Offer Detail screen
+ *******************/
+
+.offerCarousel { height: 11em; }
+
+.x-img.offerCarousel.x-img-background {
+   -moz-background-size: 100% 100% !important;
+   background-size: 100% 100% !important;
+}
+
+.offerImage {
+   /*-moz-background-size: 100% !important;
+   background-size: 100% !important;*/
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.offerExpBadge {
+   height: 1.5em;
+   width: 80%;
+   background-color: #000;
+   opacity: 0.8;
+   position: absolute;
+   top: 9.5em;
+}
+
+.offerBadge {
+   height: 1.5em;
+   width: 20%;
+   right: 0;
+   background-color: red;
+   position: absolute;
+   top: 9.5em;
+}
+
+.expiryText {
+   text-align: center;
+   color: #ea7756;
+   font-size: 0.9em;
+   padding-top: 2em;
+}
+
+.offerDetailBrandLogo {
+   width: 120px;
+   height: 50px;
+   /*background: transparent;*/
+   background-color: #FFF;
+   border: 1px solid grey;
+   position: absolute;
+   top: 9.5em;
+   left: 50%;
+   margin-left: -60px;
+   z-index: 10;
+}
+
+.offerDetailBrandLogo img {
+   width: 100%;
+   height: 100%;
+}
+
+.likeCommentShareContainer {
+   height: 2.06em;
+   border-bottom: 1px solid #d3d3d4;
+   padding: 0.45em 0 0 0;
+}
+
+.offersLikeImage {
+   background-image: url('../icons/nw-icons/like_offers.png');
+   height: 100%;
+   width: 44%;
+   float: left;
+   -moz-background-size: 188% 95%;
+   background-size: 188% 95%;
+   background-repeat: no-repeat;
+   background-position: 3px;
+   margin-left: 0.8em;
+}
+
+.offersLikeDiv {
+   position: relative;
+   width: 60%;
+   height: 1.3em;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.commentImage {
+   height: 1.2em;
+   background-position: 0.7em center !important;
+}
+
+.commCount {
+   width: 53%;
+   text-align: right;
+   font-size: 0.9em;
+}
+
+.likeCount {
+   text-align: right;
+   font-size: 0.9em;
+}
+
+.shareImage {
+   height: 1.2em;
+   background-position: 3.9em center !important;
+}
+
+.offerDetails {
+   max-height: 8em;
+   /*border: 1px solid #4bc1d2;*/
+   padding: 0.6em 0.6em 0.2em 0.6em;
+}
+
+.offerInside { /*border: 1px solid #4bc1d2;*/height: 100%; }
+
+.offerTitle { font-size: 0.9em; }
+
+.offerTagLineTitle {
+   font-size: 0.9em;
+   font-weight: bold;
+}
+
+.profileImage {
+   height: 1.8em;
+   width: 100%;
+}
+
+.offerDescription {
+   font-size: 0.7em;
+   line-height: 1.5em;
+   margin-bottom: 0.6em;
+   max-height: 4.5em;
+   overflow: hidden;
+   /*-ms-text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /*this will restrict the text to display in max  3 lines /*and will add ellipses at the end....works only in webkit browsers!1!
+   -webkit-box-orient: vertical;*/
+}
+
+.offerDetailEllipsisDiv {
+   position: relative;
+   width: 100%;
+}
+
+.offerDetailEllipsis {
+   content: "...";
+   display: none;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-left: 2.5em;
+   height: 0.8em;
+   width: 4em;
+   background: url(../images/ellipsis_bg.png) repeat-y;
+}
+
+.offerDetailEllipsis:after {
+   content: "...";
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-right: 1em;
+}
+
+.offerDetailsFinePrint {
+   font-size: 1em;
+   padding: 0.5em;
+   width: 100%;
+}
+
+.viewMoreDetails {
+   font-size: 0.7em;
+   color: #127280;
+   margin-bottom: 0.6em;
+}
+
+/**************
+comments css   
+*****************/
+
+.commentDataView { min-height: 4em !important; }
+
+.commentBlock {
+   margin-bottom: 0.25em;
+   height: 4em;
+   width: 100%;
+   /*border: 1px solid red;*/
+   padding: 0 0.5em 0 0.6em;
+}
+
+.commentBlock .userName {
+   font-size: 0.5em;
+   line-height: 1.5em;
+   margin-bottom: 0.2em;
+   color: #ffffff;
+   padding: 0.3em 0 0 1em;
+}
+
+.commentBlock .userComment {
+   font-size: 0.6em;
+   line-height: 1.2em;
+   color: #ffffff;
+   padding: 0 0 0 1em;
+   height: 59%;
+   overflow: hidden;
+}
+
+.commentBlock .commentUserImage {
+   height: 70%;
+   width: 17%;
+   float: left;
+   border: 1px solid #d0d0d0;
+}
+
+.commentBlock .commentPointerImage {
+   height: 10px;
+   width: 9px;
+   float: left;
+   margin-top: 0.5em;
+   margin-left: 2%;
+}
+
+.commentBlock .commentDetails {
+   float: left;
+   height: 90%;
+   width: 78%;
+   background-color: #4BC1D2;
+   border-radius: 0.6em;
+}
+
+.commentBlock .commentUserImage img {
+   height: 100%;
+   width: 100%;
+}
+
+/********************
+ View all comment Css   
+*********************/
+
+.viewAllCommentBlock {
+   margin-bottom: 0.25em;
+   min-height: 4em;
+   width: 100%;
+   /*border: 1px solid red;*/
+   padding: 0 0.5em 0 0.6em;
+}
+
+.viewAllCommentBlock .userName {
+   font-size: 0.5em;
+   line-height: 1.5em;
+   margin-bottom: 0.2em;
+   color: #ffffff;
+   padding: 0.3em 0 0 1em;
+}
+
+.viewAllCommentBlock .userComment {
+   font-size: 0.6em;
+   line-height: 1.2em;
+   color: #FFF;
+   padding: 0 0 0.5em 1em;
+   height: 59%;
+   overflow: hidden;
+}
+
+.viewAllCommentBlock .commentUserImage {
+   height: 3em;
+   width: 17%;
+   float: left;
+   border: 1px solid #d0d0d0;
+}
+
+.viewAllCommentBlock .commentPointerImage {
+   height: 10px;
+   width: 9px;
+   float: left;
+   margin-top: 0.5em;
+   margin-left: 2%;
+}
+
+.viewAllCommentBlock .commentDetails {
+   float: left;
+   min-height: 2.5em;
+   width: 78%;
+   background-color: #4BC1D2;
+   border-radius: 0.6em;
+}
+
+.viewAllCommentBlock .commentUserImage img {
+   height: 100%;
+   width: 100%;
+}
+
+/*******view all comments css over*************/
+
+.dottedUnderline {
+   width: 20%;
+   border-bottom: 1px dotted grey;
+   margin-left: 0.6em;
+   margin-bottom: 0.25em;
+}
+
+.commentField .x-field-input {
+   border-radius: 0px !important;
+   border-top: 1px solid #4bc1d2;
+   font-size: 0.7em;
+}
+
+
+/***************************
+view All comments screen css
+****************************/
+
+.allComments {
+   min-height: 2em;
+   width: 100%;
+   padding: 0.5em 1em 0.5em 1em;
+}
+
+.allComments p { font-size: 0.8em; }
+
+.allCommentsDottedUnderline {
+   width: 46%;
+   border-bottom: 1px dotted grey;
+   margin-left: 1em;
+}
+
+/*******************
+Places detail screen   
+********************/
+
+.placesCarousel {
+   height: 11.8em;
+   margin-bottom: -1px;
+}
+
+.placesCarousel .x-img.x-img-background {
+   -moz-background-size: 100% 100% !important;
+   background-size: 100% 100% !important;
+}
+
+
+.placesImage {
+   width: 100%;
+   height: 100%;
+}
+
+.placeTitleBlock {
+   height: 2.3em;
+   background-color: #4bc1d2;
+   padding: 0.2em 0 0 0.8em;
+}
+
+.placeHeading {
+   font-size: 0.9em;
+   color: white;
+   margin-top: 0.4em;
+}
+
+.placeCategory {
+   font-size: 0.5em;
+   color: white;
+}
+
+.placeHeaderFavImg {
+   float: right;
+   height: 50%;
+   width: 12%;
+   margin: 0.3em 0.7em 0 0;
+}
+
+.placeHeaderFavImg img {
+   max-height: 80%;
+   max-width: 100%;
+}
+
+.favCount {
+   color: white;
+   float: right;
+   font-size: 0.8em;
+   margin: 0.05em 0 0 0;
+}
+
+.placeDetail {
+   min-height: 3em;
+   padding: 0.7em 0 0.7em 0.8em;
+   /* margin: 0.7em 0 0.7em 0;*/
+}
+
+.placeDescription {
+   font-size: 0.7em;
+   line-height: 1.5em;
+   margin-bottom: 1em;
+}
+
+.placeOpenHours {
+   font-size: 0.7em;
+   line-height: 1.5em;
+   margin-bottom: 1em;
+}
+
+.placeAddress {
+   font-size: 0.7em;
+   line-height: 1.5em;
+   margin-bottom: 1em;
+}
+
+/******************
+User profile screen      
+*******************/
+
+.userProfileBlock {
+   height: 19em;
+   width: 100%;
+   position: relative;
+   padding-top: 1em;
+}
+
+.userNameBottom {
+   height: 2em;
+   width: 100%;
+}
+
+.userProfileImage {
+   height: 10em;
+   width: 54%;
+   margin: 0 auto 1em auto;
+   box-shadow: 0px 0px 0px 0px #DCDCDC;
+}
+
+.userProfileImage img {
+   height: 100%;
+   width: 100%;
+}
+
+.userProfileDetails {
+   padding: 0 0.5em 1em 1em;
+   font-size: 0.8em;
+   line-height: 2em;
+}
+
+.userProfileName { font-size: 1.1em;
+   /*color: #6fcddb !important;*/ }
+
+
+/**************************
+ Events Profile screen css   
+***************************/
+
+.eventCarousel {
+   height: 9.3em;
+   margin-bottom: -1px;
+}
+
+.eventCarousel .x-img.x-img-background {
+   -moz-background-size: 100% 100% !important;
+   background-size: 100% 100% !important;
+}
+
+.eventProfileImage {
+   width: 100%;
+   height: 100%;
+}
+
+.eventTitleBlock {
+   height: 2.3em;
+   width: 100%;
+   background-color: #4bc1d2;
+   padding: 0.2em 0 0 0.8em;
+}
+
+.eventHeading {
+   font-size: 0.9em;
+   width: 64%;
+   color: white;
+   white-space: nowrap;
+   overflow: hidden;
+   -ms-text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+}
+
+.eventProfileAttendance {
+   font-size: 0.5em;
+   color: white;
+   float: left;
+}
+
+.eventHeaderShareImg {
+   float: right;
+   height: 67%;
+   width: 8%;
+   margin: 0.3em 0.7em 0 0;
+}
+
+.eventHeaderShareImg img {
+   max-height: 80%;
+   max-width: 100%;
+}
+
+.eventHeaderLikeDiv {
+   float: right;
+   height: 67%;
+   width: 11%;
+   /*  background-image:url(../icons/nw-icons/eve_like.png);*/
+   margin: 0.3em 0.7em 0 0;
+}
+
+.eventHeaderLikeimg {
+   float: left;
+   background-image: url(../icons/nw-icons/eve_like.png);
+   background-position: 0px 0px;
+   background-repeat: no-repeat;
+   -moz-background-size: 119% 43%;
+   background-size: 200% 100%;
+   position: relative;
+   height: 83%;
+   width: 63%;
+}
+
+.eventHeaderLikeImg img {
+   max-height: 80%;
+   max-width: 100%;
+}
+
+.eventProfileLikeCount {
+   color: white;
+   float: right;
+   font-size: 0.8em;
+   margin: 0.05em 0 0 0;
+}
+
+.eventProfileDetail {
+   min-height: 4em;
+   width: 100%;
+   padding: 1em 0.8em 0 0.8em;
+}
+
+.eventProfileLocDetails {
+   width: 100%;
+   min-height: 2em;
+   margin-bottom: 0.5em;
+   /*border: 1px solid blue;*/
+}
+
+.eventProfileLocImg {
+   height: 1.5em;
+   width: 12%;
+   float: left;
+   /*border: 1px solid brown;*/
+   background-image: url('../icons/nw-icons/event-loc.png');
+   background-repeat: no-repeat;
+   -moz-background-size: 45% 63%;
+   background-size: 45% 63%;
+   background-position-y: 50%;
+}
+
+.eventProfileLoc {
+   float: left;
+   min-height: 1em;
+   width: 88%;
+   /* border: 1px solid chartreuse;*/
+   font-size: 0.7em;
+   line-height: 1.5em;
+}
+
+.eventProfileDateDetails {
+   width: 100%;
+   min-height: 2em;
+}
+
+.eventProfileDateImg {
+   height: 1.5em;
+   width: 12%;
+   float: left;
+   background-image: url('../icons/nw-icons/calender.png');
+   background-repeat: no-repeat;
+   -moz-background-size: 45% 63%;
+   background-size: 45% 63%;
+}
+
+.eventProfileDate {
+   float: left;
+   min-height: 1em;
+   width: 88%;
+   font-size: 0.7em;
+   line-height: 1.5em;
+}
+
+.eventProfileTimeDetails {
+   width: 100%;
+   min-height: 1em;
+}
+
+.eventProfileTimeImg {
+   height: 1.5em;
+   width: 12%;
+   float: left;
+   background-image: url('../icons/nw-icons/event-time.png');
+   background-repeat: no-repeat;
+   -moz-background-size: 45% 63%;
+   background-size: 45% 63%;
+}
+
+.eventProfileTime {
+   float: left;
+   min-height: 1em;
+   width: 88%;
+   font-size: 0.7em;
+   line-height: 1.5em;
+}
+
+.eventProfileDetailsPara {
+   min-height: 2em;
+   width: 100%;
+   padding: 0em 1em 1em 1em;
+   font-size: 0.7em;
+   line-height: 1.5em;
+}
+
+
+.eventCommentDataView { height: 150px !important; }
+
+.eventCommentDataView .userName { margin-left: 1em !important; }
+
+
+.editProfilePhoto {
+   height: 9em;
+   width: 100%;
+}
+
+.editProfilePhoto img {
+   height: 100%;
+   width: 100%;
+}
+
+
+/************************
+Movies list data view css      
+*************************/
+
+.moviesListDataView .main {
+   height: 8em;
+   width: 100%;
+   position: relative;
+   border-bottom: 1px solid #eceded;
+}
+
+.moviesListDataView .movieImage {
+   height: 6em;
+   width: 30%;
+   float: left;
+   padding: 0 0 0 0;
+}
+
+.movieImage img {
+   width: 100%;
+   height: 100%;
+   border: 1px solid #cbcbc8;
+}
+
+.moviesListDataView .movieDetails {
+   height: 6em;
+   width: 70%;
+   float: left;
+   position: relative;
+   /*border: 1px solid #4bc1d2;*/
+   /*background-color: #4bc1d2;*/
+   padding: 0.5em 0 0.5em 0.8em;
+}
+
+.movieDetails .movieTitle {
+   font-size: 0.8em;
+   font-weight: bold;
+   width: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   -ms-text-overflow: ellipsis;
+   -o-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+}
+
+.movieDetails .movieRating {
+   float: left;
+   font-size: 0.6em;
+}
+
+.movieDetails .movieDuration {
+   float: left;
+   font-size: 0.6em;
+}
+
+.movieDetails .movieSynopsis {
+   font-size: 0.6em;
+   width: 100%;
+   line-height: 1.5em;
+   padding-top: 0.4em;
+   overflow: hidden;
+   height: 4.5em;
+}
+
+.synop {
+   position: relative;
+   width: 100%;
+}
+
+.movieDetails .movieSynopsis:after {
+   content: "...";
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-left: 3.5em;
+   padding-top: 0.5em;
+   height: 1.5em;
+   width: 6em;
+   background: url(../images/ellipsis_bg.png) repeat-y;
+}
+
+.moviesListShowtimesEllipsis:after {
+   content: "...";
+   position: absolute;
+   bottom: 1px;
+   right: 0;
+   color: #4bc1d2;
+   padding-left: 3.5em;
+   height: 1em;
+   width: 5.5em;
+   background: url(../images/ellipsis_blue.png) repeat-y;
+}
+
+.movieListShowTimes {
+   height: 2em;
+   width: 100%;
+   position: relative;
+   background-color: #4bc1d2;
+   float: left;
+}
+
+.moviePointerImage {
+   height: 11px;
+   width: 14px;
+   position: absolute;
+   top: 8.9em;
+   left: 90%;
+}
+
+/***********************
+Movies Profile View css
+***********************/
+
+.moviesProfImage {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+
+/***********************
+movies show time css   
+************************/
+
+.singleTimeBlock {
+   height: 3.1em;
+   float: left;
+   width: 20%;
+   text-align: center;
+   background-color: #ffffff;
+   color: #4BC1D2;
+   border-bottom: 1px solid #E2E2E2;
+   border-right: 1px solid #f3f3f3;
+}
+
+.movieTimings {
+   height: 100% !important;
+   background-color: #f1f1f1;
+}
+
+.movieTimings .main { margin-top: 0.5em; }
+
+.movieTimings .movieLocation {
+   padding: 0 0 0.5em 0.5em;
+   border-bottom: 1px solid #E2E2E2;
+   font-size: 0.8em;
+   font-weight: bold;
+}
+
+.movieTimings .showTimesDiv {
+   width: 100%;
+   overflow: auto;
+}
+
+.movieTimings .moviePopcorn {
+   height: 100px;
+   width: 100px;
+   margin: 0 auto;
+   position: absolute;
+   bottom: 0px;
+}
+
+.settingsAbout {
+   font-size: 0.9em;
+   line-height: 1.5em;
+   padding: 0.5em 0.7em 0.5em 0.7em;
+   width: 100%;
+   text-align: center;
+}
+/****************
+   Parking css
+******************/
+
+.parkingBlocks .x-innerhtml { height: 100% }
+
+.parkingLocator {
+   height: 49.6%;
+   width: 49.6%;
+   border: 1px solid #efefef;
+   float: left;
+   padding: 3em 1em 2.7em 1em;
+   text-align: center;
+   margin-bottom: 0.4%;
+   margin-right: 0.4%;
+}
+
+.locatorImage {
+   height: 3.1em;
+   width: 2em;
+}
+
+.graberImage {
+   height: 3.1em;
+   width: 3em;
+}
+
+.locatorFont { font-size: 0.7em; }
+
+.parkingContainer { height: 100%; }
+
+.parkingImage {
+   height: 3.5em;
+   width: 2.5em;
+   float: left;
+}
+
+.parkingFont {
+   /*float: left;*/
+   padding-top: 0.4em;
+   font-size: 1.5em;
+   /*margin-left: 2.2em;*/
+   text-align: center;
+   /*font-weight: bold;*/
+}
+
+.parkingMethod {
+   font-size: 0.8em;
+   /*float: left;*/
+   text-align: center;
+   margin-top: 2em;
+}
+
+.parkingNote .x-field-textarea textarea { min-height: 25em; }
+
+.parkingNote .x-field-input .x-clear-icon { margin-top: -12.1em; }
+
+/***********************
+pullrefresh plugin css   
+************************/
+
+/*for dataview*/
+
+.x-list-pullrefresh { top: -3.2em; }
+
+/*for list*/
+
+.test .x-list-pullrefresh { top: -3.4em; }
+
+.x-list-pullrefresh-message { font-size: 1em !important; }
+
+
+/*****************
+  parking audio css
+*****************/
+
+.audio { width: 100%; }
+
+.audioTitle {
+   width: 90%;
+   float: left;
+}
+
+.crossImage {
+   /*width: 20%;*/
+   float: left;
+   height: 1.3em;
+}
+
+/*****************
+  SignUp form css
+*****************/
+
+.signInForm .x-form .x-scroll-container {
+   background-color: transparent;
+}

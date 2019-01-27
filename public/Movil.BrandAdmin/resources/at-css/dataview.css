@@ -1,0 +1,207 @@
+﻿.busMenu { /* INPROFILE BUSINESS DATAVIEW*/padding-bottom: 8px; }
+
+/*.busCategoryMenu {    /* INPROFILE BUSINESS DATAVIEW!1!
+   padding-bottom: 25px;
+
+}*/
+
+.main-div {
+   position: absolute;
+   cursor: pointer;
+   height: 220px;
+   width: 1000px;
+   top: 50%;
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+.main-BusType {
+   /*position: relative;*/
+   /*top: 100px;*/
+   cursor: pointer;
+   min-width: 300px;
+   margin-top: 39px;
+   margin-left: 272px;
+   padding: 8px;
+   display: inline-block;
+   font-size: 15px;
+   /*background-color: skyblue;*/
+   border: 1px solid #999;
+}
+
+.main-CatGrp1 {
+   width: 300px;
+   height: 252px;
+   margin-left: 71px;
+   padding: 8px;
+   display: block;
+   float: left;
+   font-size: 15px;
+   border: 1px solid #999;
+   margin-top: 20px;
+}
+
+.main-CatGrp2 {
+   width: 300px;
+   height: 252px;
+   margin-left: 71px;
+   display: block;
+   font-size: 15px;
+   padding: 8px;
+   float: left;
+   border: 1px solid #999;
+   margin-top: 20px;
+}
+
+.main-CatGrp4 {
+   width: 300px;
+   height: 252px;
+   margin-left: 71px;
+   padding: 8px;
+   display: block;
+   float: left;
+   font-size: 15px;
+   border: 1px solid #999;
+   margin-top: 20px;
+}
+
+.main-CatGrp3 {
+   width: 300px;
+  height: 252px;
+   margin-left: 71px;
+   padding: 8px;
+   float: left;
+   display: block;
+   font-size: 15px;
+   border: 1px solid #999;
+   margin-top: 20px;
+}
+
+.main-info-BusType {
+   /*margin-left: 60px;
+   margin-top: -250px;*/
+   display: block;
+   /*border: 1px solid #999;*/
+   padding: 8px;
+   font-size: 12px;
+   color: red;
+   width: 420px;
+   /*background-color: #e7f2fa;*/
+}
+
+.menu-item {
+   position: relative;
+   float: left;
+   box-sizing: border-box; /* Opera/IE 8+ */
+   height: 42%;
+   /*width: 16%;*/
+   padding: 5px;
+   -moz-transition: background-color 1s ease;
+   -o-transition: background-color 1s ease;
+   -webkit-transition: background-color 1s ease;
+   transition: background-color 1s ease;
+   /*background-color: #e3d5d9;*/
+   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+}
+
+.image-div {
+   position: relative;
+   right: 0;
+   left: 0;
+   /*padding: 7px;*/
+   height: 106%;
+   width: 90px;
+   margin: auto;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   -moz-border-sizing: border-box;
+}
+
+.text-div {
+   position: relative;
+   right: 0;
+   left: 0;
+   /* Opera/IE 8+ */
+   /*overflow: auto;*/
+   height: 33%;
+   width: 100%;
+   padding: 5px;
+   text-align: center;
+   /* background-color : #b2fdfc; */
+   webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box; /* Firefox, other Gecko */
+}
+
+.mainMenuDv h3 {
+   margin: 0 auto 10px auto;
+   font: normal 17px/24px "Segoe UI", tahoma, arial, verdana, sans-serif;
+}
+
+.mainMenuDv p {
+   margin: auto;
+   width: 100%;
+}
+
+.menu-item:hover { /*background-color: #c5e3f9;
+   -o-transition: background-color 1s ease;
+   -webkit-transition: background-color 1s ease;
+   -moz-transition: background-color 1s ease;
+   transition: background-color 1s ease;
+}*/ }
+
+
+.deleteicon {
+   background-image: url("../icons/delete1.png");
+   cursor: pointer;
+   /* top: 10px;*/
+   display: block;
+   height: 16px;
+   left: 92%;
+   position: absolute;
+   width: 16px;
+
+   /*bottom: 80px;*/
+}
+
+.editicon {
+   background-image: url("../icons/edit.png");
+   cursor: pointer;
+   /* top: 10px;*/
+   display: block;
+   height: 16px;
+   left: 85%;
+   position: absolute;
+   width: 16px;
+   margin-top: 4px;
+   /*bottom: 80px;*/
+}
+
+.showTime {
+   border: 1px solid #c8c8c8;
+   margin-top: 20px !important;
+   margin-left: 8px !important;
+   margin-right: 8px !important;
+}
+
+.showTimesDiv {
+   width: 80%;
+   -ms-word-break: normal;
+   margin-left: 2px;
+   word-break: normal;
+}
+
+.popupwin .x-window-header-default .x-tool-img { background-color: #4cc1d2; }
+
+.breadcrumbPadd .preserveBreadcrumbColor {font-weight: bold;
+color: #5ddfff !important;}
+
+.myEmptyCls  {
+   background-color: #fee5e9 !important;
+}

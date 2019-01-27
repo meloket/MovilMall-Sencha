@@ -1,0 +1,90 @@
+﻿.at-textfield-large {
+   height: 35px !important;
+   /*width: 250px !important;*/
+   margin-bottom: 5px !important;
+   /*margin-top: 5px !important;*/
+   /*font-size: 14px;*/
+   color: #444;
+}
+
+
+.demo {
+
+   float: right;
+   left: 780px;
+}
+
+.at-fieldlabel-large { font-weight: bold; }
+
+
+.at-fieldset-large {
+   margin-bottom: 25px !important;
+   margin-left: 20px !important;
+   margin-right: 20px !important;
+   margin-top: 10px !important;
+   position: relative !important;
+   /*background-color: #B0DBE4 !important;*/
+}
+
+.at-form-large { border-radius: 4px; }
+
+.at-button-save-large {
+   background-color: #9BA941;
+   border-color: #94A23E;
+}
+
+
+/*.at-btn-save-timetable {
+   border-color: #64B92A;
+   background-color: #64B92A;
+   color: #ffffff !important;
+   -webkit-transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+   -moz-transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+   -o-transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+   transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+  /* margin-left: 85px !important;!1!
+}
+
+.at-btn-save-timetable:hover {
+   border-color: #50A118 !important;
+   background-color: #50A118 !important;
+}
+
+.at-btn-cancel-timetable {
+    border-color: #AEB1B1;
+   background-color: #ffffff;
+   -webkit-transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+   -moz-transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+   -o-transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+   transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
+   margin-left: 42px !important;
+}
+
+.at-btn-cancel-timetable:hover{
+   border-color: #AEB1B1!important;
+   background-color: #D3D7D7 !important;
+}*/
+
+.at-radio-large { margin-right: 40px !important; }
+
+.at-textarea-large { height: 120px !important; }
+
+
+
+/*.gradient {
+  background-color: #575757; /* fallback color if gradients are not supported !1! 
+  background-image: -webkit-gradient(linear, 0% 40%, 0% 74%, from(#575757), to(#464646), color-stop(.2, #464646)); /* For Chrome and Safari !1!
+  background-image:    -moz-gradient(linear, 0% 40%, 0% 74%, from(#575757), to(#464646), color-stop(.2, #464646)); /* For old Fx (3.6 to 15) !1!
+}*/
+
+.gradient {
+   background-image: -webkit-gradient(linear, 0% 40%, 0% 74%, from(#575757), to(#464646), color-stop(.2, #464646));
+   background: -moz-linear-gradient(top, #575757 40%, #464646, #464646 74%);
+   /*background: -ms-linear-gradient(top left, red 40%, #464646 74%);*/
+   /*!important background-color: #575757;
+*/
+}
+                                                                                                
+
+
+
